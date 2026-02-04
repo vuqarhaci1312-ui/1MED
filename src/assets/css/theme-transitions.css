@@ -1,0 +1,186 @@
+/* Theme Transition Styles - OPTIMIZED VERSION */
+
+/* Smooth body transitions */
+body {
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Page content smooth transition */
+.smooth-scroll-container {
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Theme transitioning animation - SMOOTH & FAST */
+body.theme-transitioning .smooth-scroll-container {
+    animation: smoothPageTransition 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes smoothPageTransition {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.96;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Smooth fade for all elements during theme change */
+body.theme-transitioning * {
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Prevent any content shift during transition */
+body.theme-transitioning {
+    position: relative;
+}
+
+body.theme-transitioning * {
+    pointer-events: none;
+}
+
+/* Theme toggle wrapper positioning */
+.theme-toggle-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.attr-right .attr-nav.flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Light theme specific adjustments */
+[data-theme="light"] {
+    --primary-bg: #ffffff;
+    --primary-text: #000000;
+    --secondary-bg: #f8f9fa;
+}
+
+/* Light mode logo size increase */
+[data-theme="light"] .logo,
+[data-theme="light"] .navbar-brand > img {
+    max-height: 55px !important;
+}
+
+[data-theme="light"] nav.navbar.validnavs.navbar-fixed .logo {
+    max-height: 55px !important;
+}
+
+[data-theme="dark"] {
+    --primary-bg: #000000;
+    --primary-text: #ffffff;
+    --secondary-bg: #1a1a1a;
+}
+
+/* Smooth background transitions for sections */
+.bg-gray,
+.bg-cover,
+section,
+.banner-style-eight-area,
+.about-style-two-area,
+.services-style-one-area {
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Image smooth transitions */
+img {
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.theme-transitioning img {
+    opacity: 0.97;
+}
+
+/* Link hover smooth transitions */
+a {
+    transition: color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Button smooth transitions */
+button,
+.btn,
+.btn-animation {
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Card and box smooth transitions */
+.card,
+.box,
+.item {
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Prevent flash and scroll jump during theme change */
+body.theme-transitioning {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* Mobile responsive */
+@media (max-width: 991px) {
+    .theme-toggle-wrapper {
+        margin-right: 10px;
+    }
+    
+    .collapse-mobile .theme-toggle-wrapper {
+        padding: 10px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin-top: 10px;
+    }
+}
+
+/* Header theme toggle positioning */
+.navbar .attr-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar.sticked .theme-toggle-btn {
+    padding: 6px 12px;
+}
+
+/* Preloader theme support */
+.preloader {
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Footer theme support */
+footer {
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Header theme support */
+header,
+.header,
+.navbar {
+    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Ensure smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Maintain scroll position during transition */
+body.theme-transitioning {
+    scroll-behavior: auto;
+}
+
+/* Prevent layout shifts */
+body.theme-transitioning * {
+    will-change: auto !important;
+}

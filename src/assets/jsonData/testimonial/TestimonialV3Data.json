@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "ratings": "5.0",
+        "text": "Peşəkar yanaşma və keyfiyyətli xidmət. Layihəmizi vaxtında və mükəmməl şəkildə hazırladılar. Komanda üzvləri çox təcrübəli və müştəri məmnuniyyətinə böyük əhəmiyyət verirlər. Tövsiyə edirəm və növbəti layihələrdə də əməkdaşlığı davam etdirmək istəyirəm.",
+        "avatar": "11.jpg",
+        "name": "Rəşad Məmmədov",
+        "designation": "TechnoHub MMC"
+    },
+    {
+        "id": 2,
+        "ratings": "4.7",
+        "text": "Brendimizi rəqəmsal dünyada uğurla təmsil etdilər. Yaradıcı yanaşma və müasir dizayn həlləri ilə gözləntilərimizi üstələdilər. Müştəri xidməti əla, əməkdaşlıq prosesi rahat və şəffaf oldu. Hər bir detalda peşəkarlıq və keyfiyyət hiss olunur.",
+        "avatar": "12.jpg",
+        "name": "Nigar Əliyeva",
+        "designation": "Digital Solutions"
+    },
+    {
+        "id": 3,
+        "ratings": "4.9",
+        "text": "İnnovativ həllər və texniki peşəkarlıq. Mobil tətbiqimizi yüksək standartlarda hazırladılar. Texniki dəstək və məsləhət xidmətləri çox faydalı oldu. Komanda ilə işləmək böyük zövq verdi və nəticə gözləntilərimi tamamilə qarşıladı. Tövsiyə edirəm.",
+        "avatar": "13.jpg",
+        "name": "Elçin Quliyev",
+        "designation": "Innovation Labs"
+    },
+    {
+        "id": 4,
+        "ratings": "4.8",
+        "text": "İnnovativ həllər və texniki peşəkarlıq. Mobil tətbiqimizi yüksək standartlarda hazırladılar. Texniki dəstək və məsləhət xidmətləri çox faydalı oldu. Komanda ilə işləmək böyük zövq verdi və nəticə gözləntilərimi tamamilə qarşıladı. Tövsiyə edirəm.",
+        "avatar": "14.jpg",
+        "name": "Anar Həsənov",
+        "designation": "BizTech Group"
+    },
+    {
+        "id": 5,
+        "ratings": "5.0",
+        "text": "Veb saytımızı sıfırdan yaratdılar və bütün gözləntilərimi aşdılar. Dizayn müasir və cəlbedici, funksionallıq mükəmməl. İstifadəçi təcrübəsi çox yaxşı həll edilib. Texniki dəstək daimi və operativ oldu. Hər kəsə tövsiyə edirəm.",
+        "avatar": "15.jpg",
+        "name": "Səbinə Cəfərova",
+        "designation": "SmartMedia AZ"
+    },
+    {
+        "id": 6,
+        "ratings": "4.9",
+        "text": "Korporativ identiklik və brend strategiyamızı professional hazırladılar. Yaradıcı yanaşma və müştəri yönümlü xidmət göstərdilər. Logo dizaynı və vizual materiallar çox uğurlu alındı. Komanda çox mehriban və peşəkardır. Təşəkkürlər!",
+        "avatar": "16.jpg",
+        "name": "Tural Əhmədov",
+        "designation": "Creative Studio"
+    }
+]

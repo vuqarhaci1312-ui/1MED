@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "icon": "1.png",
+        "iconLight": "23.png",
+        "title": "Sosial Media İdarəsi",
+        "text": "Instagram, Facebook, LinkedIn və YouTube platformalarında peşəkar idarəetmə və məzmun yaradılması xidməti.",
+        "activeClass": ""
+    },
+    {
+        "id": 2,
+        "icon": "2.png",
+        "iconLight": "24.png",
+        "title": "Google & Meta Ads",
+        "text": "Google Ads və Meta reklamları ilə hədəf auditoriyaya çataraq effektiv satış və marka tanınması əldə edirik.",
+        "activeClass": "active"
+    },
+    {
+        "id": 3,
+        "icon": "3.png",
+        "iconLight": "25.png",
+        "title": "Qrafik Dizayn & Post",
+        "text": "Yaradıcı və cəlbedici qrafik dizayn, sosial media üçün peşəkar post dizaynı və vizual məzmun hazırlanması.",
+        "activeClass": ""
+    },
+    {
+        "id": 4,
+        "icon": "4.png",
+        "iconLight": "26.png",
+        "title": "Dron Çəkilişi & Video",
+        "text": "Peşəkar dron çəkilişləri və yüksək keyfiyyətli video istehsalı xidmətləri ilə brendinizi tanıdın.",
+        "activeClass": ""
+    }
+]

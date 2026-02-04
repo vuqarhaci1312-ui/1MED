@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "animation": "animate__animated animate__fadeInDown",
+        "count": 250,
+        "suffix": "+",
+        "label": "Tamamlanmış Layihə",
+        "duration": "0"
+    },
+    {
+        "id": 2,
+        "animation": "animate__animated animate__fadeInUp",
+        "count": 98,
+        "suffix": "%",
+        "label": "Müştəri Məmnuniyyəti",
+        "duration": "0.5s"
+    },
+    {
+        "id": 3,
+        "animation": "animate__animated animate__fadeInDown",
+        "count": 50,
+        "suffix": "+",
+        "label": "Aktiv Müştəri",
+        "duration": "0"
+    },
+    {
+        "id": 4,
+        "animation": "animate__animated animate__fadeInUp",
+        "count": 5,
+        "suffix": "+",
+        "label": "İl Təcrübə",
+        "duration": "0.5s"
+    }
+]

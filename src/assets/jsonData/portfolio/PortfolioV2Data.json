@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "thumb": "28.jpg",
+        "tag": "Sosial Media",
+        "date": "Yanvar, 2026",
+        "text": "Instagram Reels Kampaniyası - Moda Brendi"
+    },
+    {
+        "id": 2,
+        "thumb": "29.jpg",
+        "tag": "Reklam",
+        "date": "Dekabr, 2025",
+        "text": "Google Ads Strategiyası - E-ticarət Platforması"
+    },
+    {
+        "id": 3,
+        "thumb": "30.jpg",
+        "tag": "Brendinq",
+        "date": "Noyabr, 2025",
+        "text": "Brend İdentifikasiyası və Loqo Dizaynı"
+    },
+    {
+        "id": 4,
+        "thumb": "31.jpg",
+        "tag": "Video",
+        "date": "Oktyabr, 2025",
+        "text": "Drone Video Çəkilişi - Turizm Agentliyi"
+    },
+    {
+        "id": 5,
+        "thumb": "28.jpg",
+        "tag": "Məzmun",
+        "date": "Sentyabr, 2025",
+        "text": "Məzmun Planlaması və Strategiyası"
+    },
+    {
+        "id": 6,
+        "thumb": "29.jpg",
+        "tag": "SEO",
+        "date": "Avqust, 2025",
+        "text": "SEO Optimallaşdırması və Analitika"
+    }
+]

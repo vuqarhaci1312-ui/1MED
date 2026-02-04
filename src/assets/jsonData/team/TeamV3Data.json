@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "thumb": "1.jpg",
+        "name": "Sevinc Abdulkərimova",
+        "designation": "İcraçı Direktor & Qurucu",
+        "text": "Rəqəmsal marketinq və brend strategiyası sahəsində 10+ illik təcrübəyə malik. 1MEDIA-nı sıfırdan qurub müvəffəqiyyətli agentliyə çevirdi. Müştəri məmnuniyyəti və innovativ həllər prioritetimizdir.",
+        "age": "32",
+        "email": "sevinc@1media.az",
+        "phone": "+994-50-123-45-67"
+    },
+    {
+        "id": 2,
+        "thumb": "7.jpg",
+        "name": "Aysən Şərifli",
+        "designation": "Sosial Media Menecer",
+        "text": "Instagram, Facebook, LinkedIn və TikTok üzrə ekspert. Brendlərin sosial mediada görünürlüyünü artırmaq və məşğulluq yaratmaq üzrə ixtisaslaşıb. Yaradıcı məzmun strategiyaları ilə nəticə əldə edirik.",
+        "age": "28",
+        "email": "aysen@1media.az",
+        "phone": "+994-50-234-56-78"
+    },
+    {
+        "id": 3,
+        "thumb": "3.jpg",
+        "name": "Xatun Kərimova",
+        "designation": "Məzmun Rəhbəri",
+        "text": "Copywriting, blog məqalələri və reklam mətnləri sahəsində peşəkar. Brendin səsini yaradıb hədəf auditoriyaya düzgün çatdırır. Hər sözün arxasında strategiya və məqsəd durur.",
+        "age": "29",
+        "email": "xatun@1media.az",
+        "phone": "+994-50-345-67-89"
+    },
+    {
+        "id": 4,
+        "thumb": "4.jpg",
+        "name": "Nərmin Rəhimli",
+        "designation": "Qrafik Dizayner",
+        "text": "Vizual identifikasiya və kreativ dizayn mütəxəssisi. Brendlərin görünüşünü yaradaraq onların fərqlənməsinə nail olur. Adobe Creative Suite və Figma ilə professional işlər yaradır.",
+        "age": "27",
+        "email": "nermin@1media.az",
+        "phone": "+994-50-456-78-90"
+    },
+    {
+        "id": 5,
+        "thumb": "14.jpg",
+        "name": "Aysun Cəlilzadə",
+        "designation": "Müştəri Əlaqələri Meneceri",
+        "text": "Müştəri məmnuniyyəti və layihə idarəetməsi üzrə mütəxəssis. Brendlərin ehtiyaclarını başa düşüb optimal həllər təqdim edir. Hər layihədə keyfiyyət və vaxtında çatdırılma təmin olunur.",
+        "age": "30",
+        "email": "aysun@1media.az",
+        "phone": "+994-50-567-89-01"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "activeClass": "active",
+        "icon": "17.png",
+        "subTitle": "Strategiya",
+        "title": "Sosial Media İdarəsi",
+        "text": "Instagram, Facebook, TikTok, LinkedIn və YouTube platformalarında peşəkar hesab idarəsi. Məzmun planlaşdırılması, düzenli paylaşımlar və icma idarəçiliyi ilə brendinizi inkişaf etdiririk. Hədəf auditoriya təhlili və performans izləmə ilə maksimum nəticə əldə edirik.",
+        "listData": ["Instagram & Facebook İdarəsi", "TikTok Məzmun Strategiyası", "YouTube Kanal İdarəsi"],
+        "illustration": "2.png"
+    },
+    {
+        "id": 2,
+        "activeClass": "",
+        "icon": "18.png",
+        "subTitle": "Reklam",
+        "title": "Google & Meta Ads Kampaniyaları",
+        "text": "Hədəfə yönəlmiş Google Ads və Meta (Facebook/Instagram) reklam kampaniyaları ilə satışlarınızı artırırıq. Keyword araşdırması, reklam mətn optimizasyonu və A/B testləri ilə reklam büdcənizi ən effektiv şəkildə istifadə edirik. ROI artımı təmin edirik.",
+        "listData": ["Google Ads Kampaniyaları", "Meta Reklamları", "Remarketing Strategiyaları"],
+        "illustration": "3.png"
+    },
+    {
+        "id": 3,
+        "activeClass": "",
+        "icon": "19.png",
+        "subTitle": "Kreativ",
+        "title": "Qrafik Dizayn & Video İstehsal",
+        "text": "Peşəkar qrafik dizayn xidmətləri ilə brendinizin vizual kimliğini yaradırıq. Sosial media üçün post dizaynları, story və reel dizaynları hazırlayırıq. Dron çəkilişləri və peşəkar video montaj ilə yüksək keyfiyyətli video məzmun istehsal edirik.",
+        "listData": ["Post & Story Dizaynı", "Dron Çəkilişi", "Video Montaj & Animasiya"],
+        "illustration": "4.png"
+    }
+]

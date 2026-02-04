@@ -1,0 +1,230 @@
+[
+    {
+        "id": 1,
+        "thumb": "37.jpg",
+        "thumbFull": "1-full.jpg",
+        "title": "Sosial Media Kampaniyası - Moda Brendi",
+        "tag": "Sosial Media",
+        "client": "Moda Brendi",
+        "disciplines": "Sosial Media Marketinq\nInstagram Strategiyası\nMəzmun Yaradıcılığı\nİnfluenser Marketinqi",
+        "description": "Moda brendi üçün kompleks sosial media kampaniyası hazırladıq. Instagram və Facebook platformalarında brendin görünürlüyünü artırdıq, hədəf auditoriyaya çatdıq və satışları artırdıq.",
+        "background": "Müştəri yeni moda kolleksiyasını təqdim etmək və gənc auditoriyaya çatmaq istəyirdi. Əvvəlki kampaniyalar kifayət qədər nəticə vermirdi və brendin sosial mediada mövcudluğu zəif idi.",
+        "challenges": "Rəqabətli moda bazarında fərqlənmək, gənc auditoriyanı cəlb etmək və Instagram alqoritminə uyğun məzmun yaratmaq əsas çətinliklər idi. Həmçinin büdcə məhdudiyyəti və qısa müddətli kampaniya tələbi var idi.",
+        "solution": "Strateji məzmun planı hazırladıq, Instagram Reels formatına fokuslandıq və mikro-influenserlərlə əməkdaşlıq etdik. Həftəlik məzmun cədvəli və hashtag strategiyası tətbiq etdik. Nəticədə engagement rate 300% artdı və satışlar 2 dəfə artdı.",
+        "features": [
+            "Instagram Reels seriyası",
+            "Mikro-influenser tərəfdaşlıqları",
+            "Hashtag strategiyası",
+            "Məzmun planlaması"
+        ]
+    },
+    {
+        "id": 2,
+        "thumb": "38.jpg",
+        "thumbFull": "2-full.jpg",
+        "title": "Google Ads Strategiyası - E-ticarət",
+        "tag": "Reklam",
+        "client": "E-ticarət Platforması",
+        "disciplines": "Google Ads\nAxtarış Marketinqi\nKonversiya Optimallaşdırması\nAnalitika",
+        "description": "E-ticarət platforması üçün Google Ads kampaniyası hazırladıq və konversiya dərəcəsini artırdıq. Axtarış reklamları və Shopping kampaniyaları ilə satışları artırdıq.",
+        "background": "Müştəri Google Ads-dən istifadə edirdi amma ROI aşağı idi və konversiya dərəcəsi gözləniləndən az idi. Reklam xərcləri yüksək, satışlar isə aşağı idi.",
+        "challenges": "Rəqabətli açar sözlərdə yüksək klik xərcləri, aşağı konversiya dərəcəsi və landing page-lərin zəif optimallaşdırılması əsas problemlər idi.",
+        "solution": "Açar söz tədqiqatı aparıb long-tail keywords-ə fokuslandıq, landing page-ləri optimallaşdırdıq və remarketing kampaniyaları qurduq. Shopping kampaniyalarını təkmilləşdirdik və konversiya tracking quraşdırdıq.",
+        "features": [
+            "Google Shopping kampaniyası",
+            "Remarketing strategiyası",
+            "Landing page optimallaşdırması",
+            "Konversiya tracking"
+        ]
+    },
+    {
+        "id": 3,
+        "thumb": "39.jpg",
+        "thumbFull": "3-full.jpg",
+        "title": "Instagram Reels Kampaniyası - Kosmetika",
+        "tag": "Video",
+        "client": "Kosmetika Brendi",
+        "disciplines": "Video Marketinq\nInstagram Reels\nMəzmun Yaradıcılığı\nSosial Media Strategiyası",
+        "description": "Kosmetika brendi üçün Instagram Reels seriyası hazırladıq. Məhsul təqdimatları, tutorial videoları və trend formatlar ilə brendin görünürlüyünü artırdıq və yeni müştərilər qazandıq.",
+        "background": "Kosmetika brendi Instagram-da mövcud idi amma Reels formatından istifadə etmirdi. Statik postlar kifayət qədər engagement yaratmırdı və brend rəqiblərdən geri qalırdı.",
+        "challenges": "Reels formatında keyfiyyətli video məzmun yaratmaq, trend audio-lardan düzgün istifadə etmək və alqoritmə uyğun məzmun hazırlamaq əsas çətinliklər idi. Həmçinin video istehsalı üçün resurslar məhdud idi.",
+        "solution": "Həftəlik Reels seriyası hazırladıq, məhsul təqdimatları və tutorial formatlarını birləşdirdik. Trend audio-lardan istifadə edib captions-da keyword strategiyası tətbiq etdik. Nəticədə organic reach 5 dəfə artdı və yeni müştərilər qazandıq.",
+        "features": [
+            "Həftəlik Reels seriyası",
+            "Məhsul tutorial videoları",
+            "Trend audio strategiyası",
+            "Keyword optimallaşdırması"
+        ]
+    },
+    {
+        "id": 4,
+        "thumb": "40.jpg",
+        "thumbFull": "4-full.jpg",
+        "title": "Brend İdentifikasiyası - Restoran",
+        "tag": "Brendinq",
+        "client": "Restoran Zənciri",
+        "disciplines": "Brend Dizaynı\nLoqo Yaradıcılığı\nVizual Identifikasiya\nQablaşdırma Dizaynı",
+        "description": "Restoran zənciri üçün tam brend identifikasiyası hazırladıq. Loqo, vizual stil, qablaşdırma və menyu dizaynı ilə brendin unikal səsini yaratdıq.",
+        "background": "Restoran yeni açılırdı və brend identifikasiyasına ehtiyacı var idi. Rəqiblərdən fərqlənmək və müştərilərdə yadda qalmaq üçün güclü vizual identifikasiya lazım idi.",
+        "challenges": "Qida sənayesində rəqabət yüksəkdir və brendlərin fərqlənməsi çətindir. Həmçinin brend identifikasiyası həm modern, həm də ənənəvi dəyərləri əks etdirməli idi.",
+        "solution": "Restoranın konsepsiyasına uyğun unikal loqo və vizual stil yaratdıq. Rəng palitrası, tipografiya və ikonografiya ilə brendin şəxsiyyətini formalaşdırdıq. Qablaşdırma və menyu dizaynı ilə tam brend təcrübəsi yaratdıq.",
+        "features": [
+            "Loqo dizaynı",
+            "Vizual identifikasiya",
+            "Qablaşdırma dizaynı",
+            "Menyu dizaynı"
+        ]
+    },
+    {
+        "id": 5,
+        "thumb": "37.jpg",
+        "thumbFull": "5-full.jpg",
+        "title": "TikTok Viral Kampaniya - Gənclik Brendi",
+        "tag": "Sosial Media",
+        "client": "Gənclik Brendi",
+        "disciplines": "TikTok Marketinq\nViral Məzmun\nİnfluenser Tərəfdaşlıqları\nSosial Media Strategiyası",
+        "description": "Gənclik brendi üçün TikTok viral kampaniyası hazırladıq. Trend challenge-lar və kreativ videolar ilə milyonlarla izlənmə əldə etdik və brendi gənclər arasında məşhur etdik.",
+        "background": "Brend TikTok-da mövcud deyildi və gənc auditoriyaya çatmaq istəyirdi. Ənənəvi marketinq üsulları gənclər üçün effektiv deyildi.",
+        "challenges": "TikTok alqoritmi çox sürətli dəyişir və viral olmaq çətindir. Həmçinin gənclər reklamlara qarşı immunitetlidir və autentik məzmun tələb edirlər.",
+        "solution": "Trend challenge-lar və hashtag kampaniyaları hazırladıq, mikro-influenserlərlə əməkdaşlıq etdik və user-generated content strategiyası tətbiq etdik. Nəticədə kampaniya viral oldu və milyonlarla izlənmə əldə etdik.",
+        "features": [
+            "Viral challenge kampaniyası",
+            "Mikro-influenser tərəfdaşlıqları",
+            "User-generated content",
+            "Hashtag strategiyası"
+        ]
+    },
+    {
+        "id": 6,
+        "thumb": "38.jpg",
+        "thumbFull": "6-full.jpg",
+        "title": "Facebook Ads - Daşınmaz Əmlak",
+        "tag": "Reklam",
+        "client": "Daşınmaz Əmlak Şirkəti",
+        "disciplines": "Facebook Ads\nHədəfləmə Strategiyası\nLead Generasiyası\nRetargeting",
+        "description": "Daşınmaz əmlak şirkəti üçün Facebook Ads kampaniyası hazırladıq. Hədəflənmiş reklamlar və lead generasiyası ilə potensial alıcılar qazandıq.",
+        "background": "Şirkət ənənəvi marketinq üsullarından istifadə edirdi və rəqəmsal marketinqə keçmək istəyirdi. Facebook Ads-dən istifadə etmək istəyirdilər amma təcrübə yox idi.",
+        "challenges": "Daşınmaz əmlak sektorunda lead generasiyası çətindir və conversion cycle uzundur. Həmçinin Facebook Ads-də hədəfləmə və budget idarəetməsi vacibdir.",
+        "solution": "Demografik və maraq əsaslı hədəfləmə strategiyası hazırladıq, video reklamlar və carousel formatlarından istifadə etdik. Lead formları və retargeting kampaniyaları ilə lead keyfiyyətini artırdıq.",
+        "features": [
+            "Hədəflənmiş reklamlar",
+            "Video reklamlar",
+            "Lead formları",
+            "Retargeting kampaniyası"
+        ]
+    },
+    {
+        "id": 7,
+        "thumb": "39.jpg",
+        "thumbFull": "1-full.jpg",
+        "title": "YouTube Monetizasiya Dəstəyi - İnfluenser",
+        "tag": "Məzmun",
+        "client": "YouTube İnfluenser",
+        "disciplines": "YouTube Strategiyası\nMonetizasiya\nMəzmun Planlaması\nSEO Optimallaşdırması",
+        "description": "YouTube influenser üçün monetizasiya strategiyası hazırladıq. AdSense hesabı qurulması, məzmun optimallaşdırması və partner programları ilə gəliri artırdıq.",
+        "background": "İnfluenser YouTube-da məzmun yaradırdı amma monetizasiya etmirdi və gəlir əldə etmirdi. AdSense hesabı açmaq və məzmun strategiyası lazım idi.",
+        "challenges": "YouTube monetizasiya tələbləri sərtdir və 1000 abunəçi, 4000 saat izlənmə lazımdır. Həmçinin məzmun keyfiyyəti və SEO optimallaşdırması vacibdir.",
+        "solution": "AdSense hesabı qurulması üçün strategiya hazırladıq, məzmun planlaması və SEO optimallaşdırması tətbiq etdik. Thumbnail dizaynı və title optimallaşdırması ilə CTR artırdıq. Partner programları və sponsorluqlar üçün dəstək təmin etdik.",
+        "features": [
+            "AdSense hesabı qurulması",
+            "Məzmun SEO optimallaşdırması",
+            "Thumbnail dizaynı",
+            "Partner programları"
+        ]
+    },
+    {
+        "id": 8,
+        "thumb": "40.jpg",
+        "thumbFull": "2-full.jpg",
+        "title": "LinkedIn B2B Strategiyası - Texnologiya",
+        "tag": "Sosial Media",
+        "client": "Texnologiya Şirkəti",
+        "disciplines": "LinkedIn Marketinq\nB2B Strategiyası\nLead Generasiyası\nThought Leadership",
+        "description": "Texnologiya şirkəti üçün LinkedIn B2B marketinq strategiyası hazırladıq. Thought leadership məzmunu və lead generasiyası ilə biznes əlaqələri qurduq.",
+        "background": "Şirkət LinkedIn-də mövcud idi amma effektiv istifadə etmirdi. B2B müştərilərə çatmaq və biznes əlaqələri qurmaq istəyirdilər.",
+        "challenges": "LinkedIn-də B2B marketinq fərqli yanaşma tələb edir. Həmçinin thought leadership və professional məzmun vacibdir. Lead generasiyası çətin və uzunmüddətli prosesdir.",
+        "solution": "Thought leadership məzmun strategiyası hazırladıq, LinkedIn Articles və postlar ilə ekspertizamızı nümayiş etdirdik. LinkedIn Ads kampaniyaları və lead formları ilə lead generasiyası etdik. Networking və community building strategiyası tətbiq etdik.",
+        "features": [
+            "Thought leadership məzmunu",
+            "LinkedIn Ads kampaniyası",
+            "Lead generasiyası",
+            "Networking strategiyası"
+        ]
+    },
+    {
+        "id": 9,
+        "thumb": "40.jpg",
+        "thumbFull": "3-full.jpg",
+        "title": "Məzmun Planlaması - Qida Brendi",
+        "tag": "Məzmun",
+        "client": "Qida Brendi",
+        "disciplines": "Məzmun Strategiyası\nContent Calendar\nBlog Yazıları\nSosial Media Məzmunu",
+        "description": "Qida brendi üçün kompleks məzmun planlaması hazırladıq. Aylıq content calendar, blog məqalələri və sosial media məzmunu ilə brendin görünürlüyünü artırdıq.",
+        "background": "Brend məzmun yaradırdı amma strategiya yox idi və məzmun təsadüfi idi. Konsistentlik və keyfiyyət problemləri var idi.",
+        "challenges": "Qida sənayesində məzmun yaratmaq çətindir və təzəlik, sağlamlıq və dad kimi aspektləri əhatə etməlidir. Həmçinin konsistent məzmun yaratmaq və auditoriyanı maraqlandırmaq vacibdir.",
+        "solution": "Aylıq content calendar hazırladıq, resept məqalələri, sağlamlıq məzmunu və brend hekayələri ilə məzmun strategiyası yaratdıq. SEO optimallaşdırılmış blog məqalələri və sosial media məzmunu hazırladıq.",
+        "features": [
+            "Aylıq content calendar",
+            "Blog məqalələri",
+            "SEO optimallaşdırması",
+            "Sosial media məzmunu"
+        ]
+    },
+    {
+        "id": 10,
+        "thumb": "37.jpg",
+        "thumbFull": "4-full.jpg",
+        "title": "SEO & Google Analytics - Korporativ Sayt",
+        "tag": "SEO",
+        "client": "Korporativ Şirkət",
+        "disciplines": "SEO Optimallaşdırması\nGoogle Analytics\nTexniki SEO\nMəzmun SEO",
+        "description": "Korporativ şirkət üçün SEO optimallaşdırması və Google Analytics quraşdırması həyata keçirdik. Axtarış motorlarında görünürlüyü artırdıq və trafik artımı əldə etdik.",
+        "background": "Şirkətin korporativ saytı var idi amma SEO optimallaşdırılmamışdı və Google Analytics quraşdırılmamışdı. Axtarış motorlarında görünmürdü.",
+        "challenges": "Korporativ saytlar üçün SEO optimallaşdırması mürəkkəbdir və texniki SEO, məzmun SEO və link building lazımdır. Həmçinin Google Analytics quraşdırması və tracking vacibdir.",
+        "solution": "Texniki SEO audit keçirdik, məzmun optimallaşdırması həyata keçirdik və Google Analytics quraşdırdıq. Açar söz tədqiqatı aparıb məzmun strategiyası hazırladıq. Link building və local SEO strategiyası tətbiq etdik.",
+        "features": [
+            "Texniki SEO audit",
+            "Google Analytics quraşdırması",
+            "Məzmun optimallaşdırması",
+            "Link building strategiyası"
+        ]
+    },
+    {
+        "id": 11,
+        "thumb": "38.jpg",
+        "thumbFull": "5-full.jpg",
+        "title": "Drone Video Çəkilişi - Turizm Agentliyi",
+        "tag": "Video",
+        "client": "Turizm Agentliyi",
+        "disciplines": "Video İstehsalı\nDrone Çəkilişi\nVideo Redaktə\nPromo Video",
+        "description": "Turizm agentliyi üçün drone video çəkilişi və promo video hazırladıq. Gözəl mənzərələr və professional redaktə ilə brendin görünüşünü təkmilləşdirdik.",
+        "background": "Turizm agentliyi promo materiallara ehtiyacı var idi və video formatında turizm paketlərini təqdim etmək istəyirdi. Əvvəlki materiallar keyfiyyətsiz idi.",
+        "challenges": "Drone çəkilişi üçün icazələr və təhlükəsizlik tələbləri var. Həmçinin hava şəraiti və çəkiliş yerləri vacibdir. Video redaktəsi və post-production uzun prosesdir.",
+        "solution": "Professional drone operator ilə əməkdaşlıq etdik, müxtəlif mənzərələrdə çəkilişlər həyata keçirdik və professional video redaktəsi təmin etdik. Promo video və sosial media formatları hazırladıq.",
+        "features": [
+            "Drone çəkilişi",
+            "Professional redaktə",
+            "Promo video",
+            "Sosial media formatları"
+        ]
+    },
+    {
+        "id": 12,
+        "thumb": "39.jpg",
+        "thumbFull": "6-full.jpg",
+        "title": "Şirkət Brendinqi & Loqo - Startap",
+        "tag": "Brendinq",
+        "client": "Startap Şirkəti",
+        "disciplines": "Brend Dizaynı\nLoqo Yaradıcılığı\nVizual Identifikasiya\nBrand Guidelines",
+        "description": "Startap şirkəti üçün tam brend identifikasiyası hazırladıq. Loqo, vizual stil və brand guidelines ilə brendin əsasını qurduq.",
+        "background": "Startap yeni qurulurdu və brend identifikasiyasına ehtiyacı var idi. Rəqabətli bazarda fərqlənmək üçün güclü brend lazım idi.",
+        "challenges": "Startap üçün brend yaratmaq çətindir çünki büdcə məhduddur və gələcək inkişafı nəzərə almaq lazımdır. Həmçinin brend scalable və flexible olmalıdır.",
+        "solution": "Startapın missiyasına uyğun unikal loqo və vizual identifikasiya yaratdıq. Rəng palitrası, tipografiya və ikonografiya ilə brendin şəxsiyyətini formalaşdırdıq. Brand guidelines hazırladıq ki, gələcəkdə konsistent istifadə olunsun.",
+        "features": [
+            "Loqo dizaynı",
+            "Vizual identifikasiya",
+            "Brand guidelines",
+            "Scalable brend sistemi"
+        ]
+    }
+]

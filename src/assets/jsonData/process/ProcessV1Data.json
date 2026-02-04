@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Analiz və Araşdırma",
+        "thumb": "5.png",
+        "thumbLight": "27.png",
+        "text": "Brendinizi, rəqiblərinizi və hədəf auditoriyasını təhlil edərək ən effektiv rəqəmsal strategiya hazırlayırıq."
+    },
+    {
+        "id": 2,
+        "title": "Strategiya Hazırlığı",
+        "thumb": "6.png",
+        "thumbLight": "28.png",
+        "text": "Sosial media, Google Ads, Meta Ads və TikTok üçün xüsusi məzmun planı və reklam strategiyası yaradırıq."
+    },
+    {
+        "id": 3,
+        "title": "İcra və Məzmun",
+        "thumb": "7.png",
+        "thumbLight": "29.png",
+        "text": "Post dizaynı, dron çəkilişi, video montaj və reklam kampaniyalarını peşəkarlıqla həyata keçiririk."
+    },
+    {
+        "id": 4,
+        "title": "Dəstək və Optimallaşma",
+        "thumb": "8.png",
+        "thumbLight": "30.png",
+        "text": "YouTube Partner və AdSense hesab açılışı, davamlı analitik və optimallaşdırma xidmətləri göstəririk."
+    }
+]

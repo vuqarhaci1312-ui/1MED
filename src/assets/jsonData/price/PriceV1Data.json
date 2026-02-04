@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "title": "Başlanğıc Paket",
+        "trial": "Aylıq Abunə",
+        "price": 500,
+        "currency": "₼",
+        "button_class": "btn btn-sm circle btn-gradient effect",
+        "suitability": "Kiçik bizneslər üçün ideal",
+        "features": [
+            "Sosial Media İdarəsi (2 platform)",
+            "Aylıq 12 Post Dizaynı",
+            "Əsas Performans Hesabatı",
+            "Mesajlara Cavab",
+            "Aylıq Strateji Planlaşdırma"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Professional Paket",
+        "trial": "Aylıq Abunə",
+        "price": 1200,
+        "currency": "₼",
+        "button_class": "btn btn-sm circle btn-light effect",
+        "suitability": "Böyüyən bizneslər üçün",
+        "features": [
+            "Sosial Media İdarəsi (4 platform)",
+            "Aylıq 24 Post + Story Dizaynı",
+            "Google & Meta Reklam İdarəsi",
+            "Video Montaj (2 ədəd/ay)",
+            "Detallı Performans Hesabatı"
+        ]
+    }
+]

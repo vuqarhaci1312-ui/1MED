@@ -1,0 +1,166 @@
+{
+    "quoteData": [
+        {
+            "id": 1,
+            "name": "Rəşad Məmmədov",
+            "designation": "TechnoHub MMC",
+            "quote": "1MEDIA ilə işləmək brendimizi sosial mediada tanıtmaq üçün ən doğru qərar idi. Peşəkar yanaşmaları və yaradıcı məzmun strategiyaları sayəsində müştəri bazamız əhəmiyyətli dərəcədə genişləndi. Hər layihəyə fərdi yanaşmaları bizə xüsusilə xoş gəlir."
+        },
+        {
+            "id": 2,
+            "name": "Nigar Əliyeva",
+            "designation": "Digital Solutions",
+            "quote": "Rəqəmsal marketinq üzrə axtarışlarımız 1MEDIA ilə nəticələndi və heç vaxt peşman olmadıq. Google və Meta reklamlarında göstərdikləri nəticələr gözləntimizi aşdı. Komanda həmişə əlçatan və həll yönümlüdür. Onlarla işləməyi hər kəsə tövsiyə edirəm."
+        },
+        {
+            "id": 3,
+            "name": "Elçin Quliyev",
+            "designation": "Innovation Labs",
+            "quote": "Yaradıcı dizayn və məzmun istehsalında 1MEDIA-nın əli çox güclüdür. Video çəkilişindən tutmuş post dizaynına qədər bütün işlər peşəkarcasına həyata keçirilir. Brendimizin görünürlüyünü artırmaqda əvəzsiz tərəfdaşımızdır."
+        },
+        {
+            "id": 4,
+            "name": "Anar Həsənov",
+            "designation": "BizTech Group",
+            "quote": "Yaradıcı dizayn və məzmun istehsalında 1MEDIA-nın əli çox güclüdür. Video çəkilişindən tutmuş post dizaynına qədər bütün işlər peşəkarcasına həyata keçirilir. Brendimizin görünürlüyünü artırmaqda əvəzsiz tərəfdaşımızdır."
+        },
+        {
+            "id": 5,
+            "name": "Rəşad Məmmədov",
+            "designation": "TechnoHub MMC",
+            "quote": "1MEDIA ilə işləmək brendimizi sosial mediada tanıtmaq üçün ən doğru qərar idi. Peşəkar yanaşmaları və yaradıcı məzmun strategiyaları sayəsində müştəri bazamız əhəmiyyətli dərəcədə genişləndi. Hər layihəyə fərdi yanaşmaları bizə xüsusilə xoş gəlir."
+        },
+        {
+            "id": 6,
+            "name": "Nigar Əliyeva",
+            "designation": "Digital Solutions",
+            "quote": "Rəqəmsal marketinq üzrə axtarışlarımız 1MEDIA ilə nəticələndi və heç vaxt peşman olmadıq. Google və Meta reklamlarında göstərdikləri nəticələr gözləntimizi aşdı. Komanda həmişə əlçatan və həll yönümlüdür. Onlarla işləməyi hər kəsə tövsiyə edirəm."
+        },
+        {
+            "id": 7,
+            "name": "Elçin Quliyev",
+            "designation": "Innovation Labs",
+            "quote": "Yaradıcı dizayn və məzmun istehsalında 1MEDIA-nın əli çox güclüdür. Video çəkilişindən tutmuş post dizaynına qədər bütün işlər peşəkarcasına həyata keçirilir. Brendimizin görünürlüyünü artırmaqda əvəzsiz tərəfdaşımızdır."
+        },
+        {
+            "id": 8,
+            "name": "Anar Həsənov",
+            "designation": "BizTech Group",
+            "quote": "Yaradıcı dizayn və məzmun istehsalında 1MEDIA-nın əli çox güclüdür. Video çəkilişindən tutmuş post dizaynına qədər bütün işlər peşəkarcasına həyata keçirilir. Brendimizin görünürlüyünü artırmaqda əvəzsiz tərəfdaşımızdır."
+        },
+        {
+            "id": 9,
+            "name": "Rəşad Məmmədov",
+            "designation": "TechnoHub MMC",
+            "quote": "1MEDIA ilə işləmək brendimizi sosial mediada tanıtmaq üçün ən doğru qərar idi. Peşəkar yanaşmaları və yaradıcı məzmun strategiyaları sayəsində müştəri bazamız əhəmiyyətli dərəcədə genişləndi. Hər layihəyə fərdi yanaşmaları bizə xüsusilə xoş gəlir."
+        },
+        {
+            "id": 10,
+            "name": "Nigar Əliyeva",
+            "designation": "Digital Solutions",
+            "quote": "Rəqəmsal marketinq üzrə axtarışlarımız 1MEDIA ilə nəticələndi və heç vaxt peşman olmadıq. Google və Meta reklamlarında göstərdikləri nəticələr gözləntimizi aşdı. Komanda həmişə əlçatan və həll yönümlüdür. Onlarla işləməyi hər kəsə tövsiyə edirəm."
+        },
+        {
+            "id": 11,
+            "name": "Elçin Quliyev",
+            "designation": "Innovation Labs",
+            "quote": "Yaradıcı dizayn və məzmun istehsalında 1MEDIA-nın əli çox güclüdür. Video çəkilişindən tutmuş post dizaynına qədər bütün işlər peşəkarcasına həyata keçirilir. Brendimizin görünürlüyünü artırmaqda əvəzsiz tərəfdaşımızdır."
+        },
+        {
+            "id": 12,
+            "name": "Anar Həsənov",
+            "designation": "BizTech Group",
+            "quote": "Yaradıcı dizayn və məzmun istehsalında 1MEDIA-nın əli çox güclüdür. Video çəkilişindən tutmuş post dizaynına qədər bütün işlər peşəkarcasına həyata keçirilir. Brendimizin görünürlüyünü artırmaqda əvəzsiz tərəfdaşımızdır."
+        },
+        {
+            "id": 13,
+            "name": "Rəşad Məmmədov",
+            "designation": "TechnoHub MMC",
+            "quote": "1MEDIA ilə işləmək brendimizi sosial mediada tanıtmaq üçün ən doğru qərar idi. Peşəkar yanaşmaları və yaradıcı məzmun strategiyaları sayəsində müştəri bazamız əhəmiyyətli dərəcədə genişləndi. Hər layihəyə fərdi yanaşmaları bizə xüsusilə xoş gəlir."
+        },
+        {
+            "id": 14,
+            "name": "Nigar Əliyeva",
+            "designation": "Digital Solutions",
+            "quote": "Rəqəmsal marketinq üzrə axtarışlarımız 1MEDIA ilə nəticələndi və heç vaxt peşman olmadıq. Google və Meta reklamlarında göstərdikləri nəticələr gözləntimizi aşdı. Komanda həmişə əlçatan və həll yönümlüdür. Onlarla işləməyi hər kəsə tövsiyə edirəm."
+        },
+        {
+            "id": 15,
+            "name": "Elçin Quliyev",
+            "designation": "Innovation Labs",
+            "quote": "Yaradıcı dizayn və məzmun istehsalında 1MEDIA-nın əli çox güclüdür. Video çəkilişindən tutmuş post dizaynına qədər bütün işlər peşəkarcasına həyata keçirilir. Brendimizin görünürlüyünü artırmaqda əvəzsiz tərəfdaşımızdır."
+        },
+        {
+            "id": 16,
+            "name": "Anar Həsənov",
+            "designation": "BizTech Group",
+            "quote": "Yaradıcı dizayn və məzmun istehsalında 1MEDIA-nın əli çox güclüdür. Video çəkilişindən tutmuş post dizaynına qədər bütün işlər peşəkarcasına həyata keçirilir. Brendimizin görünürlüyünü artırmaqda əvəzsiz tərəfdaşımızdır."
+        }
+    ],
+    "navigationData": [
+        {
+            "id": 1,
+            "thumb": "11.jpg"
+        },
+        {
+            "id": 2,
+            "thumb": "12.jpg"
+        },
+        {
+            "id": 3,
+            "thumb": "13.jpg"
+        },
+        {
+            "id": 4,
+            "thumb": "10.jpg"
+        },
+        {
+            "id": 5,
+            "thumb": "11.jpg"
+        },
+        {
+            "id": 6,
+            "thumb": "12.jpg"
+        },
+        {
+            "id": 7,
+            "thumb": "13.jpg"
+        },
+        {
+            "id": 8,
+            "thumb": "10.jpg"
+        },
+        {
+            "id": 9,
+            "thumb": "11.jpg"
+        },
+        {
+            "id": 10,
+            "thumb": "12.jpg"
+        },
+        {
+            "id": 11,
+            "thumb": "13.jpg"
+        },
+        {
+            "id": 12,
+            "thumb": "10.jpg"
+        },
+        {
+            "id": 13,
+            "thumb": "11.jpg"
+        },
+        {
+            "id": 14,
+            "thumb": "12.jpg"
+        },
+        {
+            "id": 15,
+            "thumb": "13.jpg"
+        },
+        {
+            "id": 16,
+            "thumb": "10.jpg"
+        }
+    ]
+}

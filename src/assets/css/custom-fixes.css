@@ -1,0 +1,23 @@
+/* Custom fixes for Azerbaijani language */
+
+/* Service cards equal height */
+.services-style-one-item {
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-style-one-item h4 {
+    min-height: 60px;
+}
+
+.services-style-one-item p {
+    flex-grow: 1;
+}
+
+/* Ensure Azerbaijani characters display correctly */
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

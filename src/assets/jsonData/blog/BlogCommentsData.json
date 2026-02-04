@@ -1,0 +1,784 @@
+{
+    "1": [
+        {
+            "id": 1,
+            "name": "Rəşad Məmmədov",
+            "date": "16 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Salam, Instagram alqoritmində son dəyişikliklər haqqında eşitdim amma konkret nə dəyişib bilmirəm. Hashtag strategiyası hələ də işləyir? Çünki mənim postlarım artıq əvvəlki kimi reach almır, nə edə bilərəm?"
+        },
+        {
+            "id": 2,
+            "name": "Leyla Əliyeva",
+            "date": "17 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Rəşad, mən də eyni problemi yaşayırdım. 30 hashtag istifadə edirdim, amma məqalədə deyildiyi kimi 3-5 niche hashtag-ə keçdim və reach 2x artdı. Həmçinin Reels formatına fokuslanmaq vacibdir, story-lər artıq o qədər reach almır.",
+            "isReply": true
+        }
+    ],
+    "2": [
+        {
+            "id": 1,
+            "name": "Elçin Quliyev",
+            "date": "19 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Kiçik biznesim var və reklam büdcəm məhdud (ayda 500₼). Google Ads və Meta Ads-dən hansını seçim? Yoxsa hər ikisində kiçik məbləğlə test edim? Çaşmışam açığı."
+        },
+        {
+            "id": 2,
+            "name": "Səbinə Həsənova",
+            "date": "20 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Elçin, biznes növündən asılıdır. Əgər məhsul visual-sa (moda, yemək) və ya B2C-sə Meta Ads daha yaxşı olacaq. Google Ads intent-based-dir, yəni axtarış edən insanlara göstərilir. Mənim tövsiyəm: 300₼ Meta, 200₼ Google ilə test et, sonra daha yaxşı işləyənə fokuslan.",
+            "isReply": true
+        }
+    ],
+    "3": [
+        {
+            "id": 1,
+            "name": "Anar Bayramov",
+            "date": "21 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "TikTok-da follower-im 500-dür və heç video viral olmur. Hook barədə danışılır, amma praktikada necə etmək lazımdır? Hər dəfə fərqli hook sınayıram amma nəticə yoxdur. Nə səhv edirəm?"
+        },
+        {
+            "id": 2,
+            "name": "Günel Rzayeva",
+            "date": "22 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Anar, hook yaratmaq kifayət deyil, trending audio və posting time də çox vacibdir. TikTok Creative Center-dən trending səsləri tap və istifadə et. Həmçinin video 7-15 saniyə arasında olmalı - çox uzun videolar az completion rate alır. Mənim ilk viral videom 10 saniyə idi və 3 gün ardıcıl eyni vaxtda (19:00) post etdim.",
+            "isReply": true
+        }
+    ],
+    "4": [
+        {
+            "id": 1,
+            "name": "Tural Əhmədov",
+            "date": "23 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Google My Business profile-mi yaratdım, amma Google Maps-də görünmürəm. Category düzgün seçmişəm, foto əlavə etmişəm. Nə problem ola bilər? Verification mesajı hələ gəlməyib, bu normaldır?"
+        },
+        {
+            "id": 2,
+            "name": "Nigar Məhərrəmova",
+            "date": "24 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Tural, verification olmadan profile aktiv olmayacaq. Postcard adətən 5-14 gün gəlir. Verification-dan sonra isə NAP (Name, Address, Phone) məlumatlarını bütün platformalarda eyni olduğuna əmin ol - Facebook, Instagram, website hamısında eyni format olmalı, hətta vergül və tire yerləşməsi belə. Bu Google-a trust signal göndərir.",
+            "isReply": true
+        }
+    ],
+    "5": [
+        {
+            "id": 1,
+            "name": "Kamran Nəsibov",
+            "date": "26 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "YouTube Shorts-dan long-form videolara keçid necə etmək lazımdır? Sadəcə caption-da link versəm işləyir? Və TikTok-dakı videoları watermark-sız YouTube-a yükləyə bilərəm?"
+        },
+        {
+            "id": 2,
+            "name": "Aysel Məmmədova",
+            "date": "27 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Kamran, caption-da link deyil, Shorts-un sonunda text overlay ilə 'Full video kanalımda' yazmaq daha effektiv. Və ya pinned comment-də link. TikTok videolarını YouTube-a yükləyə bilərsən, amma watermark-sız etməlisən - SnapTik kimi tool-lardan istifadə et. YouTube watermark-lı videoları rank etmir.",
+            "isReply": true
+        }
+    ],
+    "6": [
+        {
+            "id": 1,
+            "name": "Fərid İbrahimov",
+            "date": "28 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "E-commerce mağazam var amma Instagram Shop-u aktivləşdirə bilmirəm. 'Eligibility requirements not met' error alıram. Facebook catalog yaratdım, business account var. Nə problem ola bilər?"
+        },
+        {
+            "id": 2,
+            "name": "Lamiyə Hüseynova",
+            "date": "29 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Fərid, bu problem çox rast gəlinir. Bir neçə səbəb ola bilər: 1) Website-də return policy və shipping policy yoxdur (mütləq olmalı), 2) Məhsul sayı 9-dan azdır, 3) Ölkə dəstəklənmir (Azərbaycan bəzi hallarda limit var). Commerce Manager-də 'Commerce eligibility' bölməsinə bax, orada dəqiq problem yazılıb.",
+            "isReply": true
+        }
+    ],
+    "7": [
+        {
+            "id": 1,
+            "name": "Orxan Süleymanov",
+            "date": "30 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "İnfluencer-lərlə necə negotiate etmək lazımdır? Birisi 1000₼ istəyir, amma 50K follower-i var və engagement rate 1.5%. Bu qiymət normal hesab olunur yoxsa çoxdur?"
+        },
+        {
+            "id": 2,
+            "name": "Könül Qasımova",
+            "date": "31 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Orxan, 1.5% engagement rate çox aşağıdır (fake follower ola bilər). 50K follower üçün minimum 3-4% olmalı. Qiymət barədə: follower başına 0.02₼ industry standard-dır, yəni 50K üçün maksimum 1000₼ ödəmək məntiqlidir, amma yalnız engagement yaxşı olsa. Mənim tövsiyəm: 10-20K follower-li mikro influencer-lə işlə, onların engagement-i 5-8% olur və qiymət 200-400₼.",
+            "isReply": true
+        }
+    ],
+    "8": [
+        {
+            "id": 1,
+            "name": "Vüqar Əliyev",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "GA4-də conversion tracking qura bilmirəm. 'Purchase' event-i yaratdım amma data görünmür. GTM istifadə edirəm. Test mode-da işləyir, amma real data gəlmir. Nə problem ola bilər?"
+        },
+        {
+            "id": 2,
+            "name": "Səadət Əsgərova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Vüqar, bir neçə şey check et: 1) GTM container-də 'All Pages' trigger-dən istifadə edirsən? 2) GA4 Measurement ID düzgün yazılıb? 3) Ən vacib: purchase event parameters düzgündür? (value, currency, transaction_id). GA4 DebugView-də real-time test et, event fire olur amma parameters yoxdursa, onda məlumat gəlməyəcək.",
+            "isReply": true
+        }
+    ],
+    "9": [
+        {
+            "id": 1,
+            "name": "Rəsul Nəbiyev",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Email list-im 5000 nəfərdir amma open rate 8-10%. Spam-ə düşürəm yəni? Necə düzəldə bilərəm? MailChimp istifadə edirəm və domain authentication da etmişəm."
+        },
+        {
+            "id": 2,
+            "name": "Təranə Məhəmmədova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Rəsul, 8-10% open rate həqiqətən aşağıdır (average 20-25% olmalı). Problem spam-də deyil, yəqin ki inactive subscriber-lərdə. İlk növbədə re-engagement campaign göndər: 'Hələ də email-lərimizi oxuyursunuz?' və unsubscribe option ver. Sonra inactive-ləri list-dən çıxar - bu open rate-i 15-20%-ə qaldıracaq. Həmçinin subject line-da personalization işlət və A/B test et.",
+            "isReply": true
+        }
+    ],
+    "10": [
+        {
+            "id": 1,
+            "name": "Eldəniz Cəfərov",
+            "date": "29 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Startup üçün brand identity yaratmaq istəyirəm amma designer-ə vermək büdcəm yoxdur. Canva ilə logo yaradım, kifayət edərmi yoxsa mütləq professional dizayner lazımdır?"
+        },
+        {
+            "id": 2,
+            "name": "Arzu Şərifova",
+            "date": "30 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Eldəniz, başlanğıc üçün Canva logo işləyə bilər, amma brand identity yalnız logo deyil. Brand voice, color palette, typography, messaging - bunlar hamısı vacibdir. Mənim tövsiyəm: Fiverr-də və ya yerli freelancer-lərdə 200-500₼-ə basic brand identity package al. Və ya DIY yanaşma: brand guidelines template tap (Notion-da çoxu var) və özün doldur.",
+            "isReply": true
+        }
+    ],
+    "11": [
+        {
+            "id": 1,
+            "name": "Mahir Rüstəmov",
+            "date": "30 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "LinkedIn-də B2B lead generation üçün Sales Navigator-a invest etməyə dəyərmi? 80$/ay qiymət bizim üçün çox, amma əgər effektiv işləyirsə, ödəməyə hazıram. Təcrübəniz necədir?"
+        },
+        {
+            "id": 2,
+            "name": "Gülnar Həmidova",
+            "date": "31 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Mahir, Sales Navigator B2B üçün game-changer-dir, amma yalnız aktiv istifadə etsən. Mən günlük 20-30 InMail göndərirəm və aylıq 5-8 qualified lead alıram (hər lead orta 2000₼ dəyərindədir). ROI açıqdır. Amma əgər LinkedIn-də aktiv deyilsənsə və ya outreach strategiyan yoxsa, o zaman adi account da işləyə bilər. İlk ay free trial var, test et.",
+            "isReply": true
+        }
+    ],
+    "12": [
+        {
+            "id": 1,
+            "name": "Elşad Yusifov",
+            "date": "31 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "ChatGPT ilə blog yazıram amma Google-da rank almır. AI-generated content-ə Google penalty verir dedilər, doğrudur? Yoxsa başqa problem var?"
+        },
+        {
+            "id": 2,
+            "name": "Ülviyyə Əlizadə",
+            "date": "01 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Elşad, Google AI content-ə penalty vermir, low-quality content-ə verir. ChatGPT output-u generic və repetitive olur, ona görə rank almır. Mənim strategiyam: AI-dan outline və draft istifadə et, sonra human editing et - öz experience və insights əlavə et, fact-check et, unique perspective ver. Həmçinin on-page SEO vacibdir: keyword research, internal linking, meta description.",
+            "isReply": true
+        }
+    ],
+    "13": [
+        {
+            "id": 1,
+            "name": "Ramin Qurbanov",
+            "date": "01 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Facebook Pixel quraşdırdım amma Custom Audience yarada bilmirəm. '100 people minimum required' error-u alıram. Website trafikim gündə 50-60 nəfərdir. Nə qədər gözləməliyəm?"
+        },
+        {
+            "id": 2,
+            "name": "İradə Mustafayeva",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Ramin, gündə 50-60 visitor-sə 2-3 gün gözləməlisən ki, 100-ə çatsın. Amma praktikada remarketing üçün minimum 1000 people olmalı - çox kiçik audience-ə ad run etmək expensive və ineffective olur. Mənim tövsiyəm: 30 days website visitors audience yarat və 1000+ olana qədər gözlə, sonra remarketing başlat. Bu müddətdə cold audience-ə (interest targeting) ad run et.",
+            "isReply": true
+        }
+    ],
+    "14": [
+        {
+            "id": 1,
+            "name": "Sənan Həsənzadə",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Instagram Reels-lərim hər dəfə 200-300 views alır və kənara çıxa bilmirəm. Watch time problem ola bilər? Video 30 saniyədir amma completion rate aşağı olduğunu düşünürəm."
+        },
+        {
+            "id": 2,
+            "name": "Nərgiz İsmayılova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Sənan, 30 saniyə uzundur - optimal 7-15 saniyə. Instagram analytics-də 'Average watch percentage' bölməsinə bax, əgər 50%-dən aşağıdırsa, video çox uzundur və ya ilk 3 saniyə yeterince engaging deyil. Pattern interrupt istifadə et - unexpected visual, bold statement və ya sual ilə başla. Həmçinin trending audio vacibdir, check et audio trending-dir?",
+            "isReply": true
+        }
+    ],
+    "15": [
+        {
+            "id": 1,
+            "name": "Zahid Əhmədov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Content calendar yaratdım Notion-da amma plan boyu getmir, hər dəfə last-minute content yaradıram. Necə discipline saxlaya bilərəm? Tool problemi deyil, özümdə problem var deyəsən."
+        },
+        {
+            "id": 2,
+            "name": "Mədinə Babayeva",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Zahid, mən də eyni problemi yaşayırdım. Solution: batch content creation. Ayın 1-də bütün ayın content-ini 1 gündə shoot et, 1 gündə edit et, 1 gündə schedule et. Buffer və ya Later kimi scheduling tool istifadə et - plan etdiyini auto-post edir. Həmçinin content pillar-lar yarat ki, hər gün 'nə post edim' stress yaşamayasan. 70% evergreen content, 30% timely content.",
+            "isReply": true
+        }
+    ],
+    "16": [
+        {
+            "id": 1,
+            "name": "Əli Paşayev",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Marketing büdcəm ayda 3000₼-dir və 5 kanala bölürəm: Google Ads, Meta Ads, LinkedIn, SEO, Email. Hər birinə bərabər pay verirəm (600₼), amma səmərəsiz olduğunu hiss edirəm. ROI necə ölçüm və budget-i necə reallocate edim?"
+        },
+        {
+            "id": 2,
+            "name": "Şəhla Nəsirova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Əli, bərabər pay vermək səhvdir - hər kanalın performance-ı fərqlidir. İlk iş: hər kanalın ROAS və CAC-ını hesabla. Google Sheets template yarat: Channel | Spend | Revenue | ROAS | CAC. Sonra 70/20/10 rule istifadə et: 70% ən yüksək ROI verən kanala, 20% promising kanallara, 10% experimental. Məsələn, əgər Meta Ads 5:1 ROAS verir, Google Ads 2:1 verir, o zaman Meta-ya 2000₼, Google-a 600₼ ver.",
+            "isReply": true
+        }
+    ],
+    "17": [
+        {
+            "id": 1,
+            "name": "İlkin Əsgərov",
+            "date": "17 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "YouTube-da 800 subscriber-im var və 3500 saat watch time. 1000 subscriber-ə çatmaq üçün nə etməliyəm? Shorts video çəkim daha sürətli subscriber artımı verər?"
+        },
+        {
+            "id": 2,
+            "name": "Samirə İbrahimova",
+            "date": "18 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "İlkin, Shorts subscriber artımı üçün brilliant-dir! Mənim kanalım Shorts sayəsində 2 ayda 0-dan 5K subscriber-ə çatdı. Amma watch time Shorts-dan gəlmir, long-form video da çəkməlisən. Mənim strategiyam: 3 Shorts + 1 long-form (10+ dəqiqə) həftəlik. Shorts-da CTA ver: 'Full video kanalımda'.",
+            "isReply": true
+        }
+    ],
+    "18": [
+        {
+            "id": 1,
+            "name": "Taleh Quliyev",
+            "date": "18 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "AdSense application-ım reject oldu. 'Insufficient content' səbəbi göstərildi. Blogumda 15 post var, nə qədər lazımdır? Yoxsa content quality problemi?"
+        },
+        {
+            "id": 2,
+            "name": "Günay Məmmədova",
+            "date": "19 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Taleh, 15 post minimum threshold-dur, amma quality vacib. Hər post minimum 500-800 söz olmalı (300 söz thin content hesab olunur). Həmçinin original content olmalı - kopiya və ya AI-generated generic content reject səbəbidir. Privacy Policy və Contact page əlavə etdin? Bunlar da requirement. 2 həftə gözlə və 20-25 quality post ilə reapply et.",
+            "isReply": true
+        }
+    ],
+    "19": [
+        {
+            "id": 1,
+            "name": "Cavid Nəbiyev",
+            "date": "20 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "YouTube-dan AdSense ilə ayda $200 qazanıram (100K views/ay). Sponsorship necə tapa bilərəm? Heç brand-dan təklif almamışam, özüm email göndərim?"
+        },
+        {
+            "id": 2,
+            "name": "Zülfiyyə Hacıyeva",
+            "date": "21 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Cavid, 100K views/ay yaxşı başlanğıcdır amma çox brands 50K+ subscriber-ə baxır. Media kit hazırla (demographics, engagement stats, previous work) və direct outreach et. Alternatively AspireIQ və ya Famebit-ə join et - onlar brand-larla match edir. Mənim ilk sponsorship $300 idi (20K subs), indi $2000+ alıram (150K subs).",
+            "isReply": true
+        }
+    ],
+    "20": [
+        {
+            "id": 1,
+            "name": "Fuad Rzayev",
+            "date": "22 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "TikTok-da 15K follower-im var və Creator Fund-a join etdim amma ayda $15-20 qazanıram. Bu normaldır? YouTube-da həmçinin kanal açım, oraya fokuslanım daha yaxşıdır?"
+        },
+        {
+            "id": 2,
+            "name": "Fidan Qasımova",
+            "date": "23 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Fuad, TikTok Fund payout çox aşağıdır (100K views $3-4). Fund-a rely etmə, brand deal-ə fokuslan - 15K follower ilə $200-500 per sponsored video ala bilərsən. Və bəli, YouTube-a da başla - cross-post content et (watermark-sız). YouTube monetization TikTok-dan 10-20x yüksəkdir. Multi-platform strategiya best approach-dur.",
+            "isReply": true
+        }
+    ],
+    "21": [
+        {
+            "id": 1,
+            "name": "Eltun Mustafayev",
+            "date": "24 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "TikTok Live açıram amma heç kim gift göndərmir. Necə engagement artırım? Və Live-da nə content yaradım ki, maraqlı olsun?"
+        },
+        {
+            "id": 2,
+            "name": "Sevinc Hüseynova",
+            "date": "25 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Eltun, Live content interactive olmalı: Q&A session, challenge (viewers challenge suggest edir, sən edirsən), tutorial (real-time painting, cooking), behind-the-scenes. Gift incentive ver: 'Rose göndərən hər kəsə shoutout', 'Top 3 gifter-ə exclusive content'. Mənim Live-lərim 50-200 viewer alır və ortalama $20-50 gift per stream. Consistency vacib - fixed schedule (hər Cümə 20:00).",
+            "isReply": true
+        }
+    ],
+    "22": [
+        {
+            "id": 1,
+            "name": "Ramil Səfərov",
+            "date": "25 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "LinkedIn Premium Career aldım job axtarmaq üçün. 1 ay oldu hələ iş tapmadım, pula dəyərmi bilmirəm. Cancel edim?"
+        },
+        {
+            "id": 2,
+            "name": "Pərviz Əliyev",
+            "date": "26 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Ramil, Premium magic wand deyil - actively istifadə etməlisən. InMail credit-lərini recruiting manager-lərə mesaj göndərmək üçün işlət, Job Insights-dan faydalanıb application optimize et, Who Viewed Profile-dan networking opportunity tap. Passive olaraq Premium-a subscribe edib iş gəlməsini gözləmə. Mənim tövsiyəm: 1 ay daha ver, amma daily 5-10 InMail göndər və networking et. İşləməsə cancel et.",
+            "isReply": true
+        }
+    ],
+    "23": [
+        {
+            "id": 1,
+            "name": "Ülvi Abdullayev",
+            "date": "27 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Podcast başlamaq istəyirəm amma mikrofonuma $400 xərcləməyə hazır deyiləm. $100 mikrofon ilə başlaya bilərəmmi? Audio quality çox vacibdirmi?"
+        },
+        {
+            "id": 2,
+            "name": "Məleykə Vəliyeva",
+            "date": "28 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Ülvi, mən Audio-Technica ATR2100 ilə başladım ($80) və 6 ay işlətdim. Audio decent idi. Content quality audio quality-dən daha vacibdir - maraqlı söhbət pis audio ilə dinlənilir, darıxdırıcı söhbət mükəmməl audio ilə dinlənilmir. Başlanğıc üçün $80-150 mikrofon kifayət, sonra upgrade edərsən. Amma quiet environment vacib - background noise-suz otaq tap.",
+            "isReply": true
+        }
+    ],
+    "24": [
+        {
+            "id": 1,
+            "name": "Cahangir Kərimov",
+            "date": "29 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Affiliate marketing başladım 2 ay əvvəl, 0 sale. Blog-da 10 review yazdım, SEO də eləmişəm. Trafik var (gündə 50-100 visitor), amma click-lər sale-ə convert olmur. Nə səhv edirəm?"
+        },
+        {
+            "id": 2,
+            "name": "Gültəkin Rzayeva",
+            "date": "30 Yanvar, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Cahangir, traffic var amma sale yoxdursa, trust issue və ya wrong audience. Bir neçə şey check et: 1) Honest review yazırsan? (pros AND cons - biased review trust kill edir), 2) Personal experience share edirsən? (screenshot, photo proof), 3) Buyer intent keyword-lər target edirsən? ('best laptop' informational, 'laptop buy guide' buyer intent), 4) CTA clear? Review-un sonunda clear recommendation və affiliate link. Mənim conversion rate 2-3%-dir (100 visitor, 2-3 sale).",
+            "isReply": true
+        }
+    ],
+    "25": [
+        {
+            "id": 1,
+            "name": "Pünhan Əhmədov",
+            "date": "31 Yanvar, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Upwork-də profile yaratdım amma heç job ala bilmirəm. 20+ proposal göndərmişəm, hamısı ignore olunub. Qiyməti aşağı qoymuşam ($10/saat), yenə də işləmir. Nə edim?"
+        },
+        {
+            "id": 2,
+            "name": "Şəbnəm Məhərrəmova",
+            "date": "01 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Pünhan, proposal template istifadə edirsən? Çünki client generic proposal-ları ignore edir. Hər proposal personalized olmalı: client-in job description-ını oxu, specific solution propose et, relevant portfolio sample attach et. Həmçinin response time vacib - job post-dan 1-2 saat sonra proposal göndər. Cover letter-də client problem-inə focus et, özündən çox danışma. İlk job almaq 3-4 həftə çəkə bilər, patience!",
+            "isReply": true
+        }
+    ],
+    "26": [
+        {
+            "id": 1,
+            "name": "Həmid Novruzov",
+            "date": "01 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Personal brand qurmaq istəyirəm LinkedIn-də amma nə haqqında post yazacağımı bilmirəm. Mənim expertise digital marketing-dir, amma bu mövzuda artıq çox content var. Necə differentiate olum?"
+        },
+        {
+            "id": 2,
+            "name": "Aytən Cəfərova",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Həmid, broad 'digital marketing' deyil, niche-down et. Məsələn: 'LinkedIn ads for B2B SaaS', 'E-commerce email marketing', 'TikTok marketing for local business'. Niche-də expert ol və specific perspective ver. Həmçinin personal story share et - nə öyrəndin, hansı səhvlər etdin, nə işlədi. Generic tips deyil, real case study və behind-the-scenes content. Differentiation authenticity və specific niche-dən gəlir.",
+            "isReply": true
+        }
+    ],
+    "27": [
+        {
+            "id": 1,
+            "name": "Tural Əkbərov",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "ChatGPT-4 istifadə edirəm amma generic content yaradır. Necə daha specific və brand voice-a uyğun nəticələr əldə edə bilərəm? Hər dəfə prompt-u dəyişməliyəmmi?"
+        },
+        {
+            "id": 2,
+            "name": "Könül Hüseynova",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Tural, brand voice document yaradıb ChatGPT-ə context kimi ver. Məsələn: 'Brand: casual, friendly, tech-savvy audience. Avoid: corporate jargon, buzzwords. Tone examples: [3-4 sample sentence]'. Həmçinin Custom GPT yarat (ChatGPT Plus-da) və brand info ora save et. Hər dəfə context verməyə ehtiyac olmur. Mənim brand GPT-m 80% daha consistent content verir.",
+            "isReply": true
+        }
+    ],
+    "28": [
+        {
+            "id": 1,
+            "name": "Vüsal Məmmədli",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Midjourney V6-da logo üçün image yaratmağa çalışıram amma text düzgün render olmur. DALL-E 3 daha yaxşıdırmı text üçün? Və commercial use problemi varmı?"
+        },
+        {
+            "id": 2,
+            "name": "Afət Quliyeva",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Vüsal, logo üçün Midjourney/DALL-E 3 ideal deyil - simple geometric shapes və text-ə zəif. Adobe Firefly və ya Canva AI daha yaxşı text rendering. Və ya AI concept generate et, sonra Illustrator-də vectorize et. Commercial use: Midjourney Standard+ plan-da allowed, DALL-E 3 də allowed (OpenAI Terms-a görə). Amma trademark risk var - unique design ensure et.",
+            "isReply": true
+        }
+    ],
+    "29": [
+        {
+            "id": 1,
+            "name": "Orxan Bayramov",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Jasper AI aldım amma hələ ROI görə bilmirəm. Ayda $49 ödəyirəm, necə maximize edim ki, investment-ə dəysin? Hansı feature-lərə fokuslanmalıyam?"
+        },
+        {
+            "id": 2,
+            "name": "Nərmin Əliyeva",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Orxan, Jasper-i bulk content generation üçün işlət. Məsələn: 10 blog outline 1 saatda (manual 5 saat), 20 social media post 30 dəqiqədə. SEO Mode-u enable et (Surfer SEO integration) - SEO-optimized content automatic. Brand Voice setup et və Templates library yarat. Mənim efficiency: əvvəl həftədə 2 blog yazırdım, indi 8-10 (AI 80% draft, mən 20% edit). $49/ay = ~$12/blog, freelancer $100-200 charge edir.",
+            "isReply": true
+        }
+    ],
+    "30": [
+        {
+            "id": 1,
+            "name": "Rəşad Həsənov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Surfer SEO istifadə edirəm və SEO score 85+ olur amma hələ rank etmir. Problem nədir? SEO score kifayət deyilmi ranking üçün?"
+        },
+        {
+            "id": 2,
+            "name": "Leyla Cəfərova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Rəşad, SEO score on-page optimization-dur, amma ranking backlinks, domain authority, user signals (CTR, dwell time) də lazım. Surfer SEO 85+ yaxşıdır, amma: 1) Internal linking et (related content-ə), 2) Backlinks build et (guest posts, outreach), 3) E-A-T improve (expertise, authority, trust - author bio, credentials), 4) User intent match et (search intent understand). Ranking 3-6 ay çəkə bilər, patience. Mənim təcrübə: SEO score 90 + 10 backlinks = 3 ayda top 5.",
+            "isReply": true
+        }
+    ],
+    "31": [
+        {
+            "id": 1,
+            "name": "Elvin Rəhimov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Canva AI kredit sistemi məni çaşdırır. Text to Image 4 kredit, amma ayda 500 kredit var Pro plan-da. Bu neçə image deməkdir? Kifayətdirmi?"
+        },
+        {
+            "id": 2,
+            "name": "Səbinə Qasımova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Elvin, 500 kredit / 4 = 125 text-to-image generation (ayda). Amma Background Remover 1 kredit, Magic Edit 2 kredit. Ortalama olaraq ayda 100-150 AI operation kifayət edir çox istifadəçilər üçün. Əgər az olarsa, strategic use et: AI-ni critical tasks üçün (custom visuals), templates-i simple tasks üçün. Və ya Teams plan ($30/user) unlimited kredit verir 3+ users üçün. Mənim agency: 3 user Teams plan = unlimited AI, cost-effective.",
+            "isReply": true
+        }
+    ],
+    "32": [
+        {
+            "id": 1,
+            "name": "Kamran Nəbiyev",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "HubSpot AI features istifadə etmək istəyirəm amma Free CRM-də çox limitli. Professional plan $890/ay çox bahədır kiçik biznes üçün. Alternativ varmı?"
+        },
+        {
+            "id": 2,
+            "name": "Günel Məhərrəmova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Kamran, kiçik biznes üçün alternatives: 1) Pipedrive ($14/user/ay, basic AI), 2) Zoho CRM ($20/user/ay, Zia AI assistant), 3) ActiveCampaign ($29/ay, predictive sending). HubSpot-a investment edəcəksənsə, Starter plan-dan ($20/ay) başla və grow et. Və ya HubSpot Free + Zapier + ChatGPT API DIY automation (technical amma affordable). Mənim tövsiyə: small team (<5) Zoho, growth stage HubSpot Starter, enterprise HubSpot Pro/Salesforce.",
+            "isReply": true
+        }
+    ],
+    "33": [
+        {
+            "id": 1,
+            "name": "Fərid Əhmədov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "GA4 predictive metrics unlock etmək üçün 1000 conversion/ay lazımdır deyirsiniz. Kiçik saytım ayda 200 conversion edir, heç vaxt unlock edə bilməyəcəyəm? Alternative varmı?"
+        },
+        {
+            "id": 2,
+            "name": "Aygün İsmayılova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Fərid, 200 conversion/ay kiçik saytlar üçün normal. GA4 predictive unlock olmazsa: 1) Micro-conversions track et (newsletter signup, video view, scroll depth - conversion count artır), 2) Manual segmentation (high-value users behavioral patterns analyze et), 3) Google BigQuery + custom ML model (advanced, amma possible), 4) Third-party predictive tools (Optimizely, VWO). Predictive nice-to-have, amma foundational analytics daha vacib - user behavior, funnel analysis, traffic sources. Focus on actionable insights.",
+            "isReply": true
+        }
+    ],
+    "34": [
+        {
+            "id": 1,
+            "name": "Nigar Məmmədova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Hootsuite OwlyWriter AI istifadə edirəm amma captions çox generic çıxır. Necə brand-specific və engaging content əldə edə bilərəm?"
+        },
+        {
+            "id": 2,
+            "name": "Pərvin Hüseynov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Nigar, OwlyWriter-ə detailed prompt ver. Generic: 'Write Instagram caption for product launch'. Specific: 'Write Instagram caption for eco-friendly water bottle launch, target audience: fitness enthusiasts 25-35, tone: inspirational, include sustainability benefit, CTA: shop now, 150 char, 3 emoji, 5 hashtags'. Həmçinin 5-10 variation generate et və best pick et. AI draft, human polish formula. Mənim approach: AI 3 variation → mən best elements combine → final caption. 70% AI, 30% human creativity.",
+            "isReply": true
+        }
+    ],
+    "35": [
+        {
+            "id": 1,
+            "name": "Emil Quliyev",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Descript Overdub voice cloning üçün 10 dəqiqə recording lazımdır deyirsiniz. Quality necə olur? Real voice kimi səslənirmi yoxsa robotic?"
+        },
+        {
+            "id": 2,
+            "name": "Ləman Əliyeva",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Emil, Descript Overdub quality impressive-dir - 95% real voice kimi. 10 dəqiqə minimum, amma 30 dəqiqə recording daha yaxşı result verir. Quiet environment və good mic critical (phone mic kifayət edir). Limitations: emotional range limited (dramatic intonation zəif), unusual words/names bəzən off, breathing/natural pauses AI-generated. Best use: corrections (1-2 word re-record), script changes. Long-form content üçün real recording better. Mənim use case: video-da 1 cümlə səhv, Overdub ilə düzəltdim - 2 dəqiqə (re-record 30 dəqiqə olardı).",
+            "isReply": true
+        }
+    ],
+    "36": [
+        {
+            "id": 1,
+            "name": "Samir Həsənov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Zapier və Make arasında seçim edə bilmirəm. İkisi də eyni iş görür, hansını seçməliyəm? Budget concern var, free plan kifayətdirmi?"
+        },
+        {
+            "id": 2,
+            "name": "Türkan Vəliyeva",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Samir, beginner və simple workflows üçün Zapier (user-friendly, more apps). Advanced və complex logic üçün Make (more powerful, cheaper high-volume). Free plan: Zapier 100 tasks/ay, Make 1000 ops/ay - Make-də daha generous. Mənim tövsiyə: hər ikisini free trial et (parallel test), use case-ə uyğun olanı seç. Çox hallarda Zapier başlanğıc, sonra Make-ə migrate (cost və complexity scale etdikcə). Və ya hybrid: Zapier simple, Make complex automations.",
+            "isReply": true
+        }
+    ],
+    "37": [
+        {
+            "id": 1,
+            "name": "Elmar Abbasov",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Web3 marketing haqqında eşitmişəm amma çox technical səslənir. Traditional marketerdəm, Web3-ə necə başlayım? Discord və Telegram istifadə etməliyəmmi?"
+        },
+        {
+            "id": 2,
+            "name": "Lalə Quliyeva",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Elmar, Web3 technical deyil, community-first mindset-dir. İlk addım: crypto Twitter follow et (influencer-lər, projects), Discord communities join et (Ethereum, Polygon), Web3 products test et (MetaMask wallet yarat, OpenSea explore). Sonra own Discord server setup et və community build. Traditional marketing skills (storytelling, engagement) transfer olur, yalnız platform və approach fərqli. Mənim transition: 6 ay community immersion, sonra Web3 project CMO oldum.",
+            "isReply": true
+        }
+    ],
+    "38": [
+        {
+            "id": 1,
+            "name": "Ramil Sultanov",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "NFT project launch etmək istəyirəm amma 2021-2022 hype keçib, indi NFT-lər ölüdür deyirlər. 2026-da NFT launch etməyə dəyərmi?"
+        },
+        {
+            "id": 2,
+            "name": "Səba Məmmədova",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Ramil, PFP art NFT-lər saturation-a çatıb, amma utility NFT-lər growth-dadır. Market daha mature və quality-focused. Successful strategy: real utility (membership access, IRL events, product benefits), strong community (Discord organic growth, not bot), transparent roadmap (realistic, deliverable). Examples: Pudgy Penguins (toy licensing), DeGods (ecosystem expansion). Ölü deyil, evolved. Hype-chasing dead, value creation alive.",
+            "isReply": true
+        }
+    ],
+    "39": [
+        {
+            "id": 1,
+            "name": "Toğrul Əliyev",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Voice search optimize etmək üçün content-i necə dəyişdirməliyəm? Keyword research eyni qalırmı yoxsa tamamilə fərqli approach lazımdır?"
+        },
+        {
+            "id": 2,
+            "name": "Gülnar Həsənova",
+            "date": "02 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Toğrul, keyword research fərqli - short keywords deyil, long-tail conversational phrases. Tool: AnswerThePublic (question-based keywords), People Also Ask (Google SERP), voice search emulation (Alexa/Siri test). Content structure: H2-də question ('How to fix leaking faucet?'), paragraph 1 = concise answer (40-60 words), detailed explanation aşağıda. FAQ section add et. Mənim result: voice-optimized content-də 50% traffic artımı 6 ayda.",
+            "isReply": true
+        }
+    ],
+    "40": [
+        {
+            "id": 1,
+            "name": "Cavid Rəsulov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Featured snippet optimize etdim və #0 position əldə etdim, amma website traffic azaldı. Bu normal? Featured snippet traffic oğurlayır?"
+        },
+        {
+            "id": 2,
+            "name": "İradə Əhmədova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Cavid, bəli, featured snippet paradox: visibility artır, clicks azalır (users SERP-də cavab alır). Strategy: branded queries featured snippet optimize et (brand awareness), commercial queries (purchase intent) CTR optimize et (compelling meta descriptions, no snippet). Və ya snippet-də partial answer ver, full info üçün 'learn more' imply et. Impressions və brand search volume track et - indirect benefits.",
+            "isReply": true
+        }
+    ],
+    "41": [
+        {
+            "id": 1,
+            "name": "Aygün Bayramov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Third-party cookies deprecated olduqdan sonra remarketing tamamilə ölür? Yoxsa alternative var? Facebook Pixel işləməyəcək?"
+        },
+        {
+            "id": 2,
+            "name": "Nərmin Qasımova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Aygün, remarketing evolve olur, ölmür. Facebook Pixel first-party cookie (same-domain), işləyir, amma cross-site tracking zəif. Alternatives: 1) Email remarketing (owned list), 2) Customer lists upload (hashed emails Facebook-a), 3) Lookalike audiences (first-party data-dan), 4) Contextual remarketing (content-based), 5) On-site personalization (returning visitors detect). Server-side tracking (Conversions API) privacy-safe və effective. Mənim remarketing: 70% email, 30% platform pixels.",
+            "isReply": true
+        }
+    ],
+    "42": [
+        {
+            "id": 1,
+            "name": "Rəşad Mustafayev",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Sustainability marketing authentic etmək istəyirəm amma hələ tam carbon-neutral deyilik. Imperfect sustainability communication etməliyəmmi yoxsa wait edim perfection üçün?"
+        },
+        {
+            "id": 2,
+            "name": "Səbinə Cəfərova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Rəşad, perfection paralysis-dən qaçın. Progress communicate edin, not perfection. 'We're on a journey to carbon-neutral by 2030, here's our current status və steps' transparent və authentic. Greenwashing: 'We're 100% eco-friendly' (false claim). Authentic: 'We reduced carbon 30%, target 50% by 2028, challenges: supply chain (working on it)'. Consumers appreciate honesty və effort. Patagonia model: transparent about imperfections, continuous improvement.",
+            "isReply": true
+        }
+    ],
+    "43": [
+        {
+            "id": 1,
+            "name": "Elçin Həmidov",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Interactive quiz yaratdım Typeform-da amma completion rate çox aşağı (20%). Problem quiz-dadır yoxsa distribution-da? Necə improve edim?"
+        },
+        {
+            "id": 2,
+            "name": "Könül Rzayeva",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Elçin, 20% completion normal deyil - 50-70% target. Issues: 1) Quiz çox uzun (10+ questions), 2) Boring questions (engage etmir), 3) No incentive (results valuable deyil), 4) Poor UX (mobile broken, slow load). Solutions: 5-7 questions optimal, fun və educational mix, shareable results (social proof), progress bar (psychological motivation). A/B test: question order, result page design. Mənim quiz: 8 questions, 65% completion, 40% social share.",
+            "isReply": true
+        }
+    ],
+    "44": [
+        {
+            "id": 1,
+            "name": "Nigar Əkbərova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Micro-influencer partnership etmək istəyirəm amma fake follower problem var. Necə detect edim influencer followers real ya fake?"
+        },
+        {
+            "id": 2,
+            "name": "Faiq Nəbiyev",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Nigar, red flags: 1) Sudden follower spike (1 gündə 10K+ artım), 2) High followers low engagement (100K followers, 50 likes per post), 3) Generic comments ('Great post!', 'Love this!'), 4) Follower demographics (70%+ foreign country, bot names). Tools: HypeAuditor ($30/ay, fake follower analysis), Social Blade (free, growth pattern), manual check (random followers click, profiles real?). Engagement rate 3%+ minimum. Ask audience screenshot (Instagram Insights age/gender/location).",
+            "isReply": true
+        }
+    ],
+    "45": [
+        {
+            "id": 1,
+            "name": "Vüqar Məmmədli",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "UGC campaign hashtag yaratdım amma heç kim istifadə etmir. Problem hashtag-dadır yoxsa incentive-də? Necə encourage edim customers-ı?"
+        },
+        {
+            "id": 2,
+            "name": "Aytən Hüseynova",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Vüqar, low participation reasons: 1) Incentive yoxdur və ya weak (10% discount az motivating), 2) Hashtag hard-to-remember (long, complex), 3) Poor promotion (customers bilmir campaign haqqında), 4) High barrier (effort çox - professional photo tələb). Solutions: strong incentive ($500 prize, free product), simple hashtag (#YourBrandMoment), multi-channel promotion (email, social, packaging insert), low barrier (any photo acceptable, not just professional). Seed content (first 10-20 posts özün yarat). Mənim campaign: $1000 prize, 500+ submissions.",
+            "isReply": true
+        }
+    ],
+    "46": [
+        {
+            "id": 1,
+            "name": "Tural Quliyev",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/10.jpg",
+            "comment": "Slack community yaratdım amma engagement çox aşağı. Members join edir amma heç mesaj yazmır. Ghost town kimi. Necə activate edim?"
+        },
+        {
+            "id": 2,
+            "name": "Səadət Əliyeva",
+            "date": "03 Fevral, 2026",
+            "image": "/assets/img/team/11.jpg",
+            "comment": "Tural, lurker problem (passive members). Solutions: 1) Seed conversations (özün daily questions post et), 2) Direct engagement (new members-ə DM, ice-breaker), 3) Weekly events (AMA, co-working sessions - calendar invite), 4) Recognition (spotlight active members), 5) Easy wins (simple first contribution - introduce yourself channel). Community manager critical (full-time və ya dedicated person). 3-6 ay patience lazım - active community overnight build olmur. Mənim community: 6 ay 10% active, 12 ay 40% active.",
+            "isReply": true
+        }
+    ]
+}
