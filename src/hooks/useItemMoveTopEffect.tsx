@@ -55,7 +55,7 @@ const useItemMoveTopEffect = () => {
         });
 
         return () => {
-            mm.revert();
+            (mm as unknown as { revert: () => void }).revert();
         };
     }, []);
 };

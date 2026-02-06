@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import BlogData from '../../assets/jsonData/blog/BlogData.json';
 
 interface BlogType {

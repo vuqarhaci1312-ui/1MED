@@ -15,10 +15,10 @@
     "bootstrap": "^5.3.3",
     "gsap": "^3.12.7",
     "jquery": "^3.7.1",
-    "react": "^19.0.0",
+    "react": "^18.3.1",
     "react-circular-progressbar": "^2.2.0",
     "react-countup": "^6.5.3",
-    "react-dom": "^19.0.0",
+    "react-dom": "^18.3.1",
     "react-helmet-async": "^2.0.5",
     "react-modal-video": "^2.0.2",
     "react-paginate": "^8.3.0",
@@ -28,14 +28,10 @@
     "react-toastify": "^11.0.5",
     "swiper": "^11.2.5"
   },
-  "overrides": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
-    "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^9.22.0",
     "eslint-plugin-react-hooks": "^5.2.0",

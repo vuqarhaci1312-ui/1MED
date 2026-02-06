@@ -13,8 +13,7 @@ interface ServiceDetailsProps {
     sectionClass?: string;
 }
 
-const ServiceDetailsContentLight = ({ serviceInfo, sectionClass }: ServiceDetailsProps) => {
-    const { title } = serviceInfo || {};
+const ServiceDetailsContentLight = ({ serviceInfo: _serviceInfo, sectionClass }: ServiceDetailsProps) => {
 
     return (
         <>
