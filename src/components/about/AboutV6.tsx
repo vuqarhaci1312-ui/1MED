@@ -1,5 +1,3 @@
-import thumb2 from "/assets/img/thumb/2.jpg";
-import thumb12 from "/assets/img/thumb/12.jpg";
 import arrowIcon from "/assets/img/icon/arrow.png";
 import arrowTheme from "/assets/img/icon/arrow-theme.png";
 import ServiceListData from "../../../src/assets/jsonData/services/ServiceListData.json";
@@ -7,6 +5,8 @@ import ServiceList from "../services/ServiceList";
 import { Link } from "react-router-dom";
 import useScrollAnimation from "../../hooks/useScrollAnimation";
 import { useState } from "react";
+
+const thumbYaradiciDizayn = "/assets/img/thumb/yaradicidizayn.webp";
 
 interface DataType {
     lightMode?: boolean;
@@ -33,7 +33,7 @@ const AboutV6 = ({ lightMode, sectionClass }: DataType) => {
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
                             <div className="thumb-style-four">
-                                <img src={lightMode ? thumb12 : thumb2} alt="Şəkil Tapılmadı" />
+                                <img src={thumbYaradiciDizayn} alt="Şəkil Tapılmadı" />
                             </div>
                         </div>
                         <div className="col-xl-6 offset-xl-1 col-lg-7">

@@ -9,7 +9,7 @@ const ProjectV1Light = () => {
                     <div className="row align-center">
                         <div className="col-lg-4 pr-50 pr-md-15 pr-xs-15">
                             <div className="portfolio-style-one-left-info">
-                                <h4 className="sub-title">Recent Work</h4>
+                                <h4 className="sub-title">Son İşlər</h4>
                                 <p className="split-text">
                                     <SplitText
                                         delay={5}
@@ -19,11 +19,11 @@ const ProjectV1Light = () => {
                                         threshold={0.2}
                                         rootMargin="-50px"
                                     >
-                                        Diasert carets dolor sit amet consectetur adipisicing elit. Deserunt ullam laboriosam, excepturi quibusdam ipsa sed maiores illo qui vel dicta impedit nobis sapiente culpa non quis provident ex facilis voluptates.
+                                        Yaradıcılıq və funksionallığın mükəmməl birləşməsini təqdim edirik. Müştərilərimizlə əməkdaşlıq edərək unikal və yaddaqalan rəqəmsal həllər yaradırıq. Hər layihədə innovativ yanaşma və peşəkarlıq nümayiş etdiririk. Sizin brendinizi rəqəmsal dünyada öndə saxlayırıq.
                                     </SplitText>
                                 </p>
                                 <div className="portfolio-info-card">
-                                    <h5>Experience the perfect blend of creativity and functionality</h5>
+                                    <h5>Yaradıcılıq və texnologiyanın mükəmməl harmoniyası</h5>
                                 </div>
                             </div>
                         </div>

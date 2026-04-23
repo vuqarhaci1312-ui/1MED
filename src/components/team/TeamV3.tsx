@@ -1,8 +1,11 @@
-import arrowLongRight from '/assets/img/icon/arrow-long-right.png';
-import { Link } from "react-router-dom";
 import TeamV3Data from "../../../src/assets/jsonData/team/TeamV3Data.json";
 import SingleTeamV3 from './SingleTeamV3';
 import SplitText from "../animation/SplitText.jsx"
+
+/** Bu şəbəkədə Xatun Kərimova və Aysun Cəlilzadə kartları göstərilmir */
+const teamForStyleThreeGrid = TeamV3Data.filter(
+    (t) => t.name !== "Xatun Kərimova" && t.name !== "Aysun Cəlilzadə",
+).slice(0, 4);
 
 interface DataType {
     hasTitle?: boolean;
@@ -19,7 +22,7 @@ const TeamV3 = ({ hasTitle, sectionClass }: DataType) => {
                     <div className="container">
                         <div className="site-heading">
                             <div className="row align-center">
-                                <div className="col-lg-6">
+                                <div className="col-lg-12">
                                     <h4 className="sub-title">Komanda Üzvlərimiz</h4>
                                     <h2 className="title split-text">
                                         <SplitText
@@ -34,13 +37,6 @@ const TeamV3 = ({ hasTitle, sectionClass }: DataType) => {
                                         </SplitText>
                                     </h2>
                                 </div>
-                                <div className="col-lg-6 text-end">
-                                    <Link to="/services" className="btn-circle">
-                                        <div className="button-content">
-                                            <span><img src={arrowLongRight} alt="Şəkil Tapılmadı" /></span> <strong>Bütün Üzvlər</strong>
-                                        </div>
-                                    </Link>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -48,7 +44,7 @@ const TeamV3 = ({ hasTitle, sectionClass }: DataType) => {
 
                 <div className="container-full">
                     <div className="row">
-                        {TeamV3Data.slice(0, 4).map(team =>
+                        {teamForStyleThreeGrid.map((team) =>
                             <div className="col-xl-3 col-md-6 mb-30" key={team.id}>
                                 <SingleTeamV3 team={team} />
                             </div>

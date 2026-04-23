@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
-import team1Thumb from "/assets/img/team/9.jpg"
+import mediaLogo from "/logo/logo1.png"
+import BlogCoverImage from "./BlogCoverImage";
 import BlogPostComments from './BlogPostComments';
 import BlogCommentForm from './BlogCommentForm';
 import handleSmoothScroll from '../utilities/handleSmoothScroll';
 import SocialShareV3 from '../social/SocialShareV3';
 import BlogV3Data from "../../../src/assets/jsonData/blog/BlogV3Data.json";
+import { getChronologicalNeighbors } from "../../utils/blogChronology";
 import Animate from "../animation/Animate";
 
 interface DataType {
@@ -13,6 +15,8 @@ interface DataType {
     dateIcon?: string;
     thumbFull?: string;
     author?: string;
+    tag?: string;
+    title?: string;
 }
 
 interface BlogSingleProps {
@@ -21,19 +25,14 @@ interface BlogSingleProps {
     sectionClass?: string;
 }
 
-const BlogSingleContentLight = ({ blogInfo, totalBlogs, sectionClass }: BlogSingleProps) => {
-    const { id, date, dateIcon, thumbFull, author } = blogInfo || {};
+const BlogSingleContentLight = ({ blogInfo, sectionClass }: BlogSingleProps) => {
+    const { id, date, dateIcon, thumbFull, author, tag, title } = blogInfo || {};
 
-    // Blogs Navigation 
     const currentId = id ? parseInt(id.toString(), 10) : 1;
 
-    // Calculate the previous and next IDs dynamically
-    const previousId = currentId === 1 ? totalBlogs : currentId - 1;
-    const nextId = currentId === totalBlogs ? 1 : currentId + 1;
-
-    // Get the previous and next project titles
-    const previousBlog = BlogV3Data.find((blog) => blog.id === previousId);
-    const nextBlog = BlogV3Data.find((blog) => blog.id === nextId);
+    const { older: previousBlog, newer: nextBlog } = getChronologicalNeighbors(BlogV3Data, currentId);
+    const previousId = previousBlog?.id ?? currentId;
+    const nextId = nextBlog?.id ?? currentId;
 
     // Get the first two words of the project title
     const getFirstTwoWords = (text?: string) => text?.split(' ').slice(0, 2).join(' ') || "No Title";
@@ -51,7 +50,7 @@ const BlogSingleContentLight = ({ blogInfo, totalBlogs, sectionClass }: BlogSing
                                     <div className="blog-style-one item">
                                         <div className="blog-item-box">
                                             <div className="thumb">
-                                                <img src={`/assets/img/blog/${thumbFull}`} width={1075} height={546} alt="Thumb" />
+                                                <BlogCoverImage tag={tag} fileName={thumbFull} alt={title || "Blog məqaləsi"} width={1075} height={546} />
                                             </div>
                                             <div className="info">
                                                 <div className="meta">
@@ -94,7 +93,7 @@ const BlogSingleContentLight = ({ blogInfo, totalBlogs, sectionClass }: BlogSing
                                     {/* Post Author */}
                                     <div className="post-author">
                                         <div className="thumb">
-                                            <img src={team1Thumb} alt="Thumb" />
+                                            <img src={mediaLogo} alt="1MEDIA loqosu" />
                                         </div>
                                         <div className="info">
                                             <h4><Link to="#" onClick={handleSmoothScroll}>Md Sohag</Link></h4>

@@ -1,6 +1,3 @@
-import banner6 from "/assets/img/banner/6.jpg";
-import portfolio45 from "/assets/img/portfolio/45.jpg";
-import portfolio46 from "/assets/img/portfolio/46.jpg";
 import ServicesV1Data from "../../../src/assets/jsonData/services/ServicesV1Data.json";
 import { Link } from "react-router-dom";
 
@@ -13,6 +10,9 @@ interface ServiceDetailsProps {
     sectionClass?: string;
 }
 
+const thumbStrategi = "/assets/img/banner/strategi.webp";
+const thumbNiye = "/assets/img/thumb/niye.webp";
+
 const ServiceDetailsContentLight = ({ serviceInfo: _serviceInfo, sectionClass }: ServiceDetailsProps) => {
 
     return (
@@ -23,7 +23,7 @@ const ServiceDetailsContentLight = ({ serviceInfo: _serviceInfo, sectionClass }:
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="service-single-thumb">
-                                    <img src={banner6} alt="Thumb" />
+                                    <img src={thumbStrategi} alt="Thumb" width={1116} height={519} />
                                 </div>
                             </div>
                         </div>
@@ -83,11 +83,11 @@ const ServiceDetailsContentLight = ({ serviceInfo: _serviceInfo, sectionClass }:
                             </div>
                         </div>
                         <div className="row mt-80 mt-xs-50 gallery-two-columns">
-                            <div className="col-md-6">
-                                <img src={portfolio45} alt="Şəkil Tapılmadı" />
+                            <div className="col-md-6 service-details-gallery-col--niye">
+                                <img src={thumbNiye} alt="Şəkil Tapılmadı" width={543} height={407} />
                             </div>
-                            <div className="col-md-6">
-                                <img src={portfolio46} alt="Şəkil Tapılmadı" />
+                            <div className="col-md-6 service-details-gallery-col--niye">
+                                <img src={thumbNiye} alt="Şəkil Tapılmadı" width={543} height={407} />
                             </div>
                         </div>
                         <div className="d-grid colums-2 mt-50">

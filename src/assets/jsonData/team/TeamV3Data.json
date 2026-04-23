@@ -1,23 +1,33 @@
 [
     {
         "id": 1,
-        "thumb": "1.jpg",
+        "thumb": "sevinjla.PNG",
         "name": "Sevinc Abdulkərimova",
         "designation": "İcraçı Direktor & Qurucu",
         "text": "Rəqəmsal marketinq və brend strategiyası sahəsində 10+ illik təcrübəyə malik. 1MEDIA-nı sıfırdan qurub müvəffəqiyyətli agentliyə çevirdi. Müştəri məmnuniyyəti və innovativ həllər prioritetimizdir.",
         "age": "32",
         "email": "sevinc@1media.az",
-        "phone": "+994-50-123-45-67"
+        "phone": "+994 10 427 77 53",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/sevinj-abdulkarimova-780153217?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+            "instagram": "https://www.instagram.com/sevinjlia?igsh=MWljdDhmOWk1NGl1OA==",
+            "facebook": "https://www.facebook.com/share/1ET7khtddJ/?mibextid=wwXIfr"
+        }
     },
     {
         "id": 2,
-        "thumb": "7.jpg",
+        "thumb": "aysensh.jpeg",
         "name": "Aysən Şərifli",
-        "designation": "Sosial Media Menecer",
-        "text": "Instagram, Facebook, LinkedIn və TikTok üzrə ekspert. Brendlərin sosial mediada görünürlüyünü artırmaq və məşğulluq yaratmaq üzrə ixtisaslaşıb. Yaradıcı məzmun strategiyaları ilə nəticə əldə edirik.",
+        "designation": "Reklam mütəxəssisi / Komanda rəhbəri",
+        "text": "Meta, Google və digər reklam platformalarında kampaniya quruluşu və optimallaşdırma üzrə mütəxəssis. Komanda iş axını və keyfiyyət nəzarətinə rəhbərlik edir; brendlərin ölçülə bilən reklam nəticələri əldə etməsinə dəstək olur.",
         "age": "28",
         "email": "aysen@1media.az",
-        "phone": "+994-50-234-56-78"
+        "phone": "+994 10 427 77 53",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/ayshan-sharifli-99741830b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+            "instagram": "https://www.instagram.com/ayshansharifli?igsh=MXVuZWs2Mm5qbzV1dQ%3D%3D&utm_source=qr",
+            "facebook": "https://www.facebook.com/share/1F7o1FFUXn/?mibextid=wwXIfr"
+        }
     },
     {
         "id": 3,
@@ -27,17 +37,20 @@
         "text": "Copywriting, blog məqalələri və reklam mətnləri sahəsində peşəkar. Brendin səsini yaradıb hədəf auditoriyaya düzgün çatdırır. Hər sözün arxasında strategiya və məqsəd durur.",
         "age": "29",
         "email": "xatun@1media.az",
-        "phone": "+994-50-345-67-89"
+        "phone": "+994 10 427 77 53"
     },
     {
         "id": 4,
-        "thumb": "4.jpg",
+        "thumb": "nermin.jpeg",
         "name": "Nərmin Rəhimli",
-        "designation": "Qrafik Dizayner",
+        "designation": "Dizayner / Sosial media meneceri",
         "text": "Vizual identifikasiya və kreativ dizayn mütəxəssisi. Brendlərin görünüşünü yaradaraq onların fərqlənməsinə nail olur. Adobe Creative Suite və Figma ilə professional işlər yaradır.",
         "age": "27",
         "email": "nermin@1media.az",
-        "phone": "+994-50-456-78-90"
+        "phone": "+994 10 427 77 53",
+        "social": {
+            "linkedin": "https://www.linkedin.com/in/narmin-ragimli-12a16b33b?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+        }
     },
     {
         "id": 5,
@@ -47,6 +60,6 @@
         "text": "Müştəri məmnuniyyəti və layihə idarəetməsi üzrə mütəxəssis. Brendlərin ehtiyaclarını başa düşüb optimal həllər təqdim edir. Hər layihədə keyfiyyət və vaxtında çatdırılma təmin olunur.",
         "age": "30",
         "email": "aysun@1media.az",
-        "phone": "+994-50-567-89-01"
+        "phone": "+994 10 427 77 53"
     }
 ]

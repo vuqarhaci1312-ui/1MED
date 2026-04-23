@@ -1,19 +1,17 @@
 /* Theme Transition Styles - OPTIMIZED VERSION */
 
-/* Smooth body transitions */
+/* Tema dəyişəndə uzun animasiya gecikməsinə yol verməmək üçün qısa keçid */
 body {
-    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
-                color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 0.06s ease-out,
+                color 0.06s ease-out;
 }
 
-/* Page content smooth transition */
 .smooth-scroll-container {
-    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 0.06s ease-out;
 }
 
-/* Theme transitioning animation - SMOOTH & FAST */
 body.theme-transitioning .smooth-scroll-container {
-    animation: smoothPageTransition 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: smoothPageTransition 0.08s ease-out;
 }
 
 @keyframes smoothPageTransition {
@@ -28,11 +26,10 @@ body.theme-transitioning .smooth-scroll-container {
     }
 }
 
-/* Smooth fade for all elements during theme change */
 body.theme-transitioning * {
-    transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
-                color 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
-                border-color 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    transition: background-color 0.06s ease-out,
+                color 0.06s ease-out,
+                border-color 0.06s ease-out !important;
 }
 
 /* Prevent any content shift during transition */
@@ -40,9 +37,7 @@ body.theme-transitioning {
     position: relative;
 }
 
-body.theme-transitioning * {
-    pointer-events: none;
-}
+/* pointer-events: none çıxarıldı — keçid zamanı klik “donması” olmur */
 
 /* Theme toggle wrapper positioning */
 .theme-toggle-wrapper {

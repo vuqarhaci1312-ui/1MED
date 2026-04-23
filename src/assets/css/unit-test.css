@@ -1151,6 +1151,10 @@ nav.woocommerce-breadcrumb a {
 	min-width: 150px;
 	border-radius: 50%;
 	margin-right: 30px;
+	object-fit: contain;
+	background: #ffffff;
+	padding: 18px;
+	box-sizing: border-box;
 }
 
 .post-author {

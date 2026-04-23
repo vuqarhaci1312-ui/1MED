@@ -1,10 +1,18 @@
-import { ScrollToTop } from 'react-simple-scroll-up';
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from "react-toastify";
+import { SOCIAL_WHATSAPP_WA_URL } from "../../constants/socialLinks";
 
 const Dependency = () => {
     return (
         <>
-            <ScrollToTop symbol={<i className="fas fa-long-arrow-up"></i>} />
+            <a
+                href={SOCIAL_WHATSAPP_WA_URL}
+                className="whatsapp-float-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp ilə əlaqə"
+            >
+                <i className="fab fa-whatsapp" aria-hidden />
+            </a>
             <ToastContainer />
         </>
     );

@@ -1,5 +1,4 @@
-import SocialShareV1 from "../social/SocialShareV1";
-import { Link } from "react-router-dom";
+import SocialShareV1, { type TeamSocialLinks } from "../social/SocialShareV1";
 
 interface DataType {
     id?: number;
@@ -10,6 +9,7 @@ interface DataType {
     age?: string;
     email?: string;
     phone?: string;
+    social?: TeamSocialLinks;
 }
 
 interface TeamDetailsProps {
@@ -18,7 +18,10 @@ interface TeamDetailsProps {
 }
 
 const TeamDetails = ({ teamInfo, sectionClass }: TeamDetailsProps) => {
-    const { thumb, name, designation, text, age, email, phone } = teamInfo
+    const { thumb, name, designation, text, email, social } = teamInfo;
+    const mailHref = email?.trim()
+        ? `mailto:${email.trim()}?subject=${encodeURIComponent("1MEDIA — əlaqə")}`
+        : "mailto:info@1media.az?subject=" + encodeURIComponent("1MEDIA — əlaqə");
 
     return (
         <>
@@ -28,7 +31,7 @@ const TeamDetails = ({ teamInfo, sectionClass }: TeamDetailsProps) => {
                         <div className="row align-center">
                             <div className="col-xl-6 col-lg-5 left-info">
                                 <div className="thumb">
-                                    <img src={`/assets/img/team/${thumb}`} alt="Thumb" width={800} height={900} />
+                                    <img src={`/assets/img/team/${thumb}`} alt={name || ""} width={800} height={900} />
                                 </div>
                             </div>
                             <div className="col-xl-6 col-lg-7">
@@ -38,28 +41,18 @@ const TeamDetails = ({ teamInfo, sectionClass }: TeamDetailsProps) => {
                                     <p>{text}</p>
                                     <ul className="user-location">
                                         <li>
-                                            <strong>Age:</strong>
-                                            <p>{age} Years</p>
-                                        </li>
-                                        <li>
-                                            <strong>Location:</strong>
-                                            <p>Baird House, 15-17 St Cross St London EC1N 8UW</p>
-                                        </li>
-                                        <li>
-                                            <strong>Email:</strong>
-                                            <a href={`mailto:${email}`}>{email}</a>
-                                        </li>
-                                        <li>
-                                            <strong>Phone:</strong>
-                                            <a href={`tel:${phone}`}>{phone}</a>
+                                            <strong>E-poçt:</strong>
+                                            <a href={mailHref}>{email || "info@1media.az"}</a>
                                         </li>
                                     </ul>
                                     <div className="social">
-                                        <Link className="btn circle btn-sm btn-gradient animation" to="/contact-us">Contact Me</Link>
+                                        <a className="btn circle btn-sm btn-gradient animation" href={mailHref}>
+                                            Əlaqə
+                                        </a>
                                         <div className="share-link">
                                             <i className="fas fa-share-alt" />
                                             <ul>
-                                                <SocialShareV1 />
+                                                <SocialShareV1 social={social} />
                                             </ul>
                                         </div>
                                     </div>

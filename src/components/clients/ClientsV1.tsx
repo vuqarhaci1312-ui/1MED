@@ -1,18 +1,35 @@
-import team10 from '/assets/img/team/10.jpg';
-import team11 from '/assets/img/team/11.jpg';
-import team12 from '/assets/img/team/12.jpg';
-import team13 from '/assets/img/team/13.jpg';
-import brand10 from "/assets/img/brand/10.png";
-import brand2 from "/assets/img/brand/2.png";
-import brand3 from "/assets/img/brand/3.png";
-import brand4 from "/assets/img/brand/4.png";
-import brand8 from "/assets/img/brand/8.png";
-import brand6 from "/assets/img/brand/6.png";
-import brand7 from "/assets/img/brand/7.png";
 import { Link } from "react-router-dom";
 import CountUp from 'react-countup';
 import handleSmoothScroll from '../utilities/handleSmoothScroll';
 import SplitText from "../animation/SplitText.jsx"
+
+/** `clients-card` önizləməsi — dairə ölçüsü dəyişmədən kiçik loqo görünüşü üçün CSS */
+const CLIENTS_CARD_PREVIEW_LOGOS = [
+    "alliancecliniclogo.png",
+    "logomedident.jpeg",
+    "logowelldiet.PNG",
+    "logoan.jpeg",
+] as const;
+
+/** `public/assets/img/partner/` — bütün tərəfdaş loqoları */
+const PARTNER_LOGO_FILES = [
+    "alliancecliniclogo.png",
+    "bbmlogo.png",
+    "logoan.jpeg",
+    "logodoctordent.png",
+    "renewlogo.png",
+    "logohaciyev.jpeg",
+    "logomedident.jpeg",
+    "logowelldiet.PNG",
+    "medicalcitylogo.png",
+    "mindallogo.png",
+    "nurlinelogo.png",
+] as const;
+
+function partnerLogoAlt(file: string): string {
+    const base = file.replace(/\.[^.]+$/i, "").replace(/logo/gi, " ").replace(/[-_]/g, " ").trim();
+    return base ? `${base} loqosu` : "Tərəfdaş loqosu";
+}
 
 interface DataType {
     sectionClass?: string
@@ -55,10 +72,14 @@ const ClientsV1 = ({ sectionClass }: DataType) => {
                                 </p>
 
                                 <div className="clients-card mt-10">
-                                    <img src={team10} alt="Şəkil Tapılmadı" />
-                                    <img src={team11} alt="Şəkil Tapılmadı" />
-                                    <img src={team12} alt="Şəkil Tapılmadı" />
-                                    <img src={team13} alt="Şəkil Tapılmadı" />
+                                    {CLIENTS_CARD_PREVIEW_LOGOS.map((file) => (
+                                        <img
+                                            key={file}
+                                            src={`/assets/img/partner/${file}`}
+                                            alt={partnerLogoAlt(file)}
+                                            loading="lazy"
+                                        />
+                                    ))}
                                     <Link to="#">
                                         <i className="fas fa-plus" />
                                     </Link>
@@ -70,33 +91,21 @@ const ClientsV1 = ({ sectionClass }: DataType) => {
                                 <div className="client-style-one-item">
                                     <div className="fun-fact">
                                         <div className="counter">
-                                            <div className="count-num"><CountUp end={50} enableScrollSpy /></div>
+                                            <div className="count-num"><CountUp end={15} enableScrollSpy /></div>
                                             <div className="operator">+</div>
                                         </div>
                                         <span className="medium">Aktiv Müştəri</span>
                                     </div>
                                 </div>
-                                <div className="client-style-one-item">
-                                    <img src={brand10} alt="Şəkil Tapılmadı" />
-                                </div>
-                                <div className="client-style-one-item">
-                                    <img src={brand2} alt="Şəkil Tapılmadı" />
-                                </div>
-                                <div className="client-style-one-item">
-                                    <img src={brand3} alt="Şəkil Tapılmadı" />
-                                </div>
-                                <div className="client-style-one-item">
-                                    <img src={brand4} alt="Şəkil Tapılmadı" />
-                                </div>
-                                <div className="client-style-one-item">
-                                    <img src={brand8} alt="Şəkil Tapılmadı" />
-                                </div>
-                                <div className="client-style-one-item">
-                                    <img src={brand6} alt="Şəkil Tapılmadı" />
-                                </div>
-                                <div className="client-style-one-item">
-                                    <img src={brand7} alt="Şəkil Tapılmadı" />
-                                </div>
+                                {PARTNER_LOGO_FILES.map((file) => (
+                                    <div key={file} className="client-style-one-item client-style-one-item--partner">
+                                        <img
+                                            src={`/assets/img/partner/${file}`}
+                                            alt={partnerLogoAlt(file)}
+                                            loading="lazy"
+                                        />
+                                    </div>
+                                ))}
                                 <div className="client-style-one-item">
                                     <Link to="#" onClick={handleSmoothScroll}>Hamısına Bax</Link>
                                 </div>

@@ -1,6 +1,7 @@
 import logoLight from '/logo/logo1.png';
 import logo from '/logo/logo-light.png';
 import { Link } from "react-router-dom";
+import { SITE_ADDRESS_LINE_1, SITE_ADDRESS_LINE_2 } from "../../constants/siteAddress";
 import NewsletterV2 from '../newsletter/NewsletterV2';
 import FooterSocial from '../social/FooterSocial';
 
@@ -27,7 +28,9 @@ const FooterV2 = ({ lightMode, sectionClass }: DataType) => {
                                     <li>
                                         <h4>Bakı</h4>
                                         <p>
-                                            Azərbaycan Respublikası, Bakı şəhəri, Nəsimi rayonu
+                                            {SITE_ADDRESS_LINE_1}
+                                            <br />
+                                            {SITE_ADDRESS_LINE_2}
                                         </p>
                                     </li>
                                     <li>
@@ -43,7 +46,7 @@ const FooterV2 = ({ lightMode, sectionClass }: DataType) => {
                                             <a href="mailto:info@1media.az">info@1media.az</a>
                                         </li>
                                         <li>
-                                            <a href="tel:+994501234567">+994 50 123 45 67</a>
+                                            <a href="tel:+994104277753">+994 10 427 77 53</a>
                                         </li>
                                     </ul>
                                 </div>

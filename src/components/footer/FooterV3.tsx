@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { SITE_ADDRESS_LINE_1, SITE_ADDRESS_LINE_2 } from "../../constants/siteAddress";
 import NewsletterV2 from '../newsletter/NewsletterV2';
 import FooterSocial from '../social/FooterSocial';
 
@@ -21,7 +22,9 @@ const FooterV3 = () => {
                                         <li>
                                             <h4>Bakı</h4>
                                             <p>
-                                                Azərbaycan Respublikası, Bakı şəhəri, Nəsimi rayonu
+                                                {SITE_ADDRESS_LINE_1}
+                                                <br />
+                                                {SITE_ADDRESS_LINE_2}
                                             </p>
                                         </li>
                                         <li>

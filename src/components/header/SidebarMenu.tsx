@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { SITE_ADDRESS_LINE_1, SITE_ADDRESS_LINE_2 } from "../../constants/siteAddress";
 import ThemeToggle from '../theme/ThemeToggle';
 import logoLight from "/logo/logo1.png"
 import MainMenuV2 from './MainMenuV2';
@@ -64,7 +65,11 @@ const SidebarMenu = ({ isInfoOpen, closeInfoBar, openInfoBar }: DataType) => {
                                                     <li>
                                                         <div className="content">
                                                             <p>Ünvan</p>
-                                                            <strong>Bakı şəhəri, Nizami rayonu<br />Rəşid Behbudov küçəsi, 123</strong>
+                                                            <strong>
+                                                                {SITE_ADDRESS_LINE_1}
+                                                                <br />
+                                                                {SITE_ADDRESS_LINE_2}
+                                                            </strong>
                                                         </div>
                                                     </li>
                                                     <li>
@@ -76,7 +81,7 @@ const SidebarMenu = ({ isInfoOpen, closeInfoBar, openInfoBar }: DataType) => {
                                                     <li>
                                                         <div className="content">
                                                             <p>Telefon</p>
-                                                            <strong>+994 50 123 45 67</strong>
+                                                            <strong>+994 10 427 77 53</strong>
                                                         </div>
                                                     </li>
                                                 </ul>

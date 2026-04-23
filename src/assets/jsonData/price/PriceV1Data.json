@@ -2,33 +2,53 @@
     {
         "id": 1,
         "title": "Başlanğıc Paket",
-        "trial": "Aylıq Abunə",
-        "price": 500,
-        "currency": "₼",
-        "button_class": "btn btn-sm circle btn-gradient effect",
-        "suitability": "Kiçik bizneslər üçün ideal",
+        "trial": "Yeni bizneslər üçün",
+        "suitability": "Sosial mediada ilk addımlar",
         "features": [
-            "Sosial Media İdarəsi (2 platform)",
-            "Aylıq 12 Post Dizaynı",
-            "Əsas Performans Hesabatı",
-            "Mesajlara Cavab",
-            "Aylıq Strateji Planlaşdırma"
+            "1 platformda səhifə qurulumu və optimallaşdırma",
+            "Aylıq kontent planı",
+            "8 vizual post / ay",
+            "Bio, hashtag, əlaqə bloku",
+            "Ayda 1 konsultasiya (30 dəq)"
         ]
     },
     {
         "id": 2,
-        "title": "Professional Paket",
-        "trial": "Aylıq Abunə",
-        "price": 1200,
-        "currency": "₼",
-        "button_class": "btn btn-sm circle btn-light effect",
-        "suitability": "Böyüyən bizneslər üçün",
+        "title": "Sadə Paket",
+        "trial": "Kiçik bizneslər üçün",
+        "suitability": "Fasiləsiz rəqəmsal mövcudluq",
         "features": [
-            "Sosial Media İdarəsi (4 platform)",
-            "Aylıq 24 Post + Story Dizaynı",
-            "Google & Meta Reklam İdarəsi",
-            "Video Montaj (2 ədəd/ay)",
-            "Detallı Performans Hesabatı"
+            "2 platformda idarəetmə",
+            "12 post + story / ay",
+            "İş saatlarında mesaj cavabı",
+            "Aylıq qısa performans hesabatı",
+            "2 reels montaj / ay"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Professional Paket",
+        "trial": "Böyüyən brendlər üçün",
+        "suitability": "Reklam və kontent sinxronu",
+        "features": [
+            "4 platform, vahid brend tonu",
+            "24 post + stories / ay",
+            "Meta və Google reklam optimallaşdırma",
+            "2 video montaj / ay",
+            "Detallı auditoriya və xərclər hesabatı"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Premium Paket",
+        "trial": "Korporativ və yüksək həcm üçün",
+        "suitability": "Strategiya + komanda dəstəyi",
+        "features": [
+            "Əsas + əlavə kanallar idarəsi",
+            "Həftəlik kontent və rəqib izləmə",
+            "Çoxkanallı reklam və büdcə optimallaşdırma",
+            "Studiya / dron çəkilişi (çərçivə üzrə)",
+            "CRM və veb analitikası, şəxsi menecer"
         ]
     }
 ]

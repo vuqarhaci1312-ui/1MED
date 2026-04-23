@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "thumb": "4.jpg",
+        "thumb": "blog-id-1.jpg",
         "author": "1MEDIA Team",
         "date": "15",
         "comments": 24,
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "thumb": "5.jpg",
+        "thumb": "blog-id-2.jpg",
         "author": "1MEDIA Team",
         "date": "08",
         "comments": 18,

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { SITE_ADDRESS_LINE_1, SITE_ADDRESS_LINE_2 } from "../../constants/siteAddress";
 import ThemeToggle from '../theme/ThemeToggle';
 import logo from "/logo/logo-light.png"
 import logoLight from "/logo/logo1.png"
@@ -82,7 +83,11 @@ const HeaderV5 = ({ lightMode }: DataType) => {
                                                                 <li>
                                                                     <div className="content">
                                                                         <p>Address</p>
-                                                                        <strong>California, TX 70240</strong>
+                                                                        <strong>
+                                                                            {SITE_ADDRESS_LINE_1}
+                                                                            <br />
+                                                                            {SITE_ADDRESS_LINE_2}
+                                                                        </strong>
                                                                     </div>
                                                                 </li>
                                                                 <li>
@@ -94,7 +99,7 @@ const HeaderV5 = ({ lightMode }: DataType) => {
                                                                 <li>
                                                                     <div className="content">
                                                                         <p>Contact</p>
-                                                                        <strong>+44-20-7328-4499</strong>
+                                                                        <strong>+994 10 427 77 53</strong>
                                                                     </div>
                                                                 </li>
                                                             </ul>

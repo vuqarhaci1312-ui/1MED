@@ -71,8 +71,7 @@ const BannerV8 = ({ lightMode }: DataType) => {
                                 <div className="bottom">
                                     <div className="fun-fact">
                                         <div className="counter">
-                                            <div className="timer"><CountUp end={31} enableScrollSpy /></div>
-                                            <div className="operator">K</div>
+                                            <div className="timer"><CountUp end={250} suffix="+" enableScrollSpy /></div>
                                         </div>
                                         <span className="medium">Tamamlanmış Layihələr</span>
                                     </div>

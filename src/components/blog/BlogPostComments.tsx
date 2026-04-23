@@ -16,7 +16,7 @@ const BlogPostComments = ({ blogId = 1 }: BlogPostCommentsProps) => {
                 {comments.map((comment) => (
                     <div key={comment.id} className={`comment-item ${comment.isReply ? 'reply' : ''}`}>
                         <div className="avatar">
-                            <img src={comment.image} width={800} height={800} alt="Şəkil Tapılmadı" />
+                            <img src={comment.image} width={800} height={800} alt={comment.name ? `${comment.name} — avatar` : "Şərh avatarı"} />
                         </div>
                         <div className="content">
                             <div className="title">

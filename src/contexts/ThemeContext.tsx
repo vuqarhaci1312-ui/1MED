@@ -1,4 +1,4 @@
-import { createContext, useState, useContext, useEffect, ReactNode } from 'react';
+import { createContext, useState, useContext, useEffect, useLayoutEffect, ReactNode } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 interface ThemeContextType {
@@ -76,46 +76,23 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
         document.body.setAttribute('data-theme', theme);
     }, [theme]);
 
-    // Sync route with theme on mount and navigation
-    useEffect(() => {
+    // Marşrutu temaya sinxron saxla: bir dəfə navigate (toggleTheme-də navigate yoxdur — təkrar naviqasiya gecikməsi olmasın).
+    useLayoutEffect(() => {
         const currentPath = location.pathname;
         const expectedRoute = getRouteVariant(currentPath, theme);
-        
-        // Preserve query parameters (like category filter)
         const searchParams = location.search;
-        
-        // Only navigate if we're on the wrong variant
+
         if (expectedRoute !== currentPath) {
-            navigate(expectedRoute + searchParams, { replace: true });
+            navigate(`${expectedRoute}${searchParams}`, { replace: true });
         }
-    }, [location.pathname, theme, navigate]);
+    }, [location.pathname, location.search, theme, navigate]);
 
     const toggleTheme = () => {
         const newTheme = theme === 'dark' ? 'light' : 'dark';
-        
-        // Add transition class BEFORE state change
-        document.body.classList.add('theme-transitioning');
-        
-        // Get the target route
-        const currentPath = location.pathname;
-        const targetRoute = getRouteVariant(currentPath, newTheme);
-        
-        // Preserve query parameters (like category filter)
-        const searchParams = location.search;
-        const fullTargetRoute = targetRoute + searchParams;
-        
-        // Change theme state
+        // Dərhal: mövcud səhifədə data-theme və storage (router remountdan əvvəl)
+        localStorage.setItem('dixor-theme', newTheme);
+        document.body.setAttribute('data-theme', newTheme);
         setTheme(newTheme);
-        
-        // Navigate only if route actually changes
-        if (fullTargetRoute !== currentPath + searchParams) {
-            navigate(fullTargetRoute, { replace: true });
-        }
-        
-        // Remove transition class after animation
-        setTimeout(() => {
-            document.body.classList.remove('theme-transitioning');
-        }, 200);
     };
 
     return (

@@ -5,13 +5,16 @@ import DarkClass from "../../components/classes/DarkClass";
 import LayoutV1 from "../../components/layouts/LayoutV1";
 import TeamDetails from "../../components/team/TeamDetails";
 import TeamQualification from "../../components/team/TeamQualification";
-import TeamV1Data from "../../../src/assets/jsonData/team/TeamV1Data.json"
+import TeamV1Data from "../../../src/assets/jsonData/team/TeamV1Data.json";
+import TeamV3Data from "../../../src/assets/jsonData/team/TeamV3Data.json";
 import { Helmet } from "react-helmet-async";
 
 const TeamDetailsPage = () => {
 
     const { id } = useParams();
-    const data = TeamV1Data.find(team => team.id === parseInt(id || '0'));
+    const numericId = parseInt(id || "0", 10);
+    const data = TeamV3Data.find((team) => team.id === numericId)
+        ?? TeamV1Data.find((team) => team.id === numericId);
 
     return (
         <>

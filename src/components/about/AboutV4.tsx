@@ -1,6 +1,7 @@
-import about1 from "/assets/img/about/1.jpg";
-import about4 from "/assets/img/about/4.jpg";
 import SkillProgressData from "../../../src/assets/jsonData/progress/SkillProgressData.json";
+
+const thumbHaqqimizda = "/assets/img/about/haqqimizda.webp";
+const thumbBey = "/assets/img/about/bey.png";
 import SkillProgress from "../process/SkillProgress";
 import SplitText from "../animation/SplitText.jsx"
 import useUpDownScrollV2 from "../../hooks/useUpDownScrollV2";
@@ -20,7 +21,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                     <div className="row align-center">
                         <div className="col-lg-5">
                             <div className="about-style-four-thumb">
-                                <img src={about1} alt="Şəkil Tapılmadı" />
+                                <img src={thumbHaqqimizda} alt="Şəkil Tapılmadı" width={448} height={561} />
                             </div>
                         </div>
                         <div className="col-lg-6 offset-lg-1">
@@ -48,7 +49,7 @@ const AboutV4 = ({ sectionClass }: DataType) => {
                                         )}
                                     </div>
                                     <div className="thumb upDownScrolSlow">
-                                        <img src={about4} alt="Şəkil Tapılmadı" />
+                                        <img src={thumbBey} alt="Şəkil Tapılmadı" width={268} height={268} />
                                     </div>
                                 </div>
                             </div>

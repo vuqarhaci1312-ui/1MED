@@ -1,5 +1,6 @@
+import { SITE_ADDRESS_LINE_1, SITE_ADDRESS_LINE_2 } from "../../constants/siteAddress";
 import ContactForm from "../form/ContactForm";
-import SocialShareV2 from "../social/SocialShareV2";
+import FooterSocial from "../social/FooterSocial";
 
 interface DataType {
     sectionClass?: string
@@ -16,13 +17,15 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                                 <div className="contact-style-one-info">
                                     <ul className="contact-address">
                                         <li>
-                                            <a className="phone-link" href="tel:+994501234567"><i className="fas fa-user-headset" /> +994 50 123 45 67</a>
+                                            <a className="phone-link" href="tel:+994104277753"><i className="fas fa-user-headset" /> +994 10 427 77 53</a>
                                         </li>
                                         <li>
                                             <div className="info">
                                                 <h4>Ünvan</h4>
                                                 <p>
-                                                    Bakı şəhəri, Nizami rayonu <br /> Rəşid Behbudov küçəsi, 123
+                                                    {SITE_ADDRESS_LINE_1}
+                                                    <br />
+                                                    {SITE_ADDRESS_LINE_2}
                                                 </p>
                                             </div>
                                         </li>
@@ -35,7 +38,7 @@ const ContactV1 = ({ sectionClass }: DataType) => {
                                         <li>
                                             <div className="info">
                                                 <ul className="social-link">
-                                                    <SocialShareV2 />
+                                                    <FooterSocial />
                                                 </ul>
                                             </div>
                                         </li>

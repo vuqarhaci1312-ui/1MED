@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import BlogCoverImage from "../blog/BlogCoverImage";
 
 interface Blog {
     id: number;
     thumb: string;
+    tag?: string;
     title: string;
     date: string;
 }
@@ -12,7 +14,7 @@ interface SingleRecentPostProps {
 }
 
 const SingleRecentPost: React.FC<SingleRecentPostProps> = ({ blog }) => {
-    const { id, thumb, title, date } = blog;
+    const { id, thumb, tag, title, date } = blog;
 
     const truncateString = (str: string): string => {
         if (str.length <= 47) {
@@ -27,7 +29,7 @@ const SingleRecentPost: React.FC<SingleRecentPostProps> = ({ blog }) => {
         <li>
             <div className="thumb">
                 <Link to={`/blog-single-with-sidebar/${id}`}>
-                    <img src={`/assets/img/blog/${thumb}`} width={500} height={500} alt="Thumb" />
+                    <BlogCoverImage tag={tag} fileName={thumb} alt={title} width={500} height={500} />
                 </Link>
             </div>
             <div className="info">

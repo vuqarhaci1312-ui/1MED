@@ -1,34 +1,52 @@
-import { Link } from "react-router-dom";
+const WHATSAPP_NUMBER_E164 = "994104277753";
 
 interface DataType {
     id: number;
     title: string;
     trial: string;
-    price: number;
-    currency: string;
+    price?: number;
+    currency?: string;
     suitability: string;
     features: string[];
 }
 
 interface PriceProps {
-    activeServiceId: any;
-    plan: DataType
+    activeServiceId: unknown;
+    plan: DataType;
+}
+
+function whatsappOrderHref(packageTitle: string): string {
+    const text = `Salam, ${packageTitle} xidməti ilə maraqlanıram.`;
+    return `https://wa.me/${WHATSAPP_NUMBER_E164}?text=${encodeURIComponent(text)}`;
 }
 
 const SinglePriceV1 = ({ plan, activeServiceId }: PriceProps) => {
     const { title, trial, currency, price, suitability, features } = plan || {};
 
+    const showPrice = typeof price === "number" && price > 0 && currency;
+
     return (
         <>
-
-            <div className={`pricing-style-one ${activeServiceId === plan.id ? 'active' : ''}`}>
+            <div className={`pricing-style-one ${activeServiceId === plan.id ? "active" : ""}`}>
                 <div className="left">
                     <div className="info">
                         <h4>{title}</h4>
                         <span>{trial}</span>
                     </div>
-                    <h2><sup>{currency}</sup>{price}</h2>
-                    <Link className={`btn btn-sm circle effect ${activeServiceId === plan.id ? 'btn-gradient' : 'btn-light'}`} to="/contact-us">Sifariş Et</Link>
+                    {showPrice ? (
+                        <h2>
+                            <sup>{currency}</sup>
+                            {price}
+                        </h2>
+                    ) : null}
+                    <a
+                        className={`btn btn-sm circle effect ${activeServiceId === plan.id ? "btn-gradient" : "btn-light"}`}
+                        href={whatsappOrderHref(title)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Sifariş Et
+                    </a>
                 </div>
                 <div className="right">
                     <h5>{suitability}</h5>

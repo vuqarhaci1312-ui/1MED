@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom";
+import BlogCoverImage from "./BlogCoverImage";
 
 interface DataType {
     id?: number;
     thumb?: string;
+    tag?: string;
     author?: string;
     dateFull?: string;
     comments?: number;
@@ -11,14 +13,14 @@ interface DataType {
 }
 
 const SingleBlogV1 = ({ blog }: { blog: DataType }) => {
-    const { id, thumb, author, dateFull, comments, title } = blog
+    const { id, thumb, tag, author, dateFull, comments, title } = blog
 
     return (
         <>
             <div className="home-blog-one">
                 <div className="thumb">
                     <Link to={`/blog-single-with-sidebar/${id}`}>
-                        <img src={`/assets/img/blog/${thumb}`} alt="Image Not Found" width={800} height={1000} />
+                        <BlogCoverImage tag={tag} fileName={thumb} alt={title || "Blog məqaləsi"} width={800} height={1000} />
                     </Link>
                     <div className="date">{dateFull}</div>
                 </div>

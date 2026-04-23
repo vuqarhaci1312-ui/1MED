@@ -5,6 +5,7 @@ const CategoryWidget = () => {
     const [searchParams] = useSearchParams();
     const location = useLocation();
     const currentCategory = searchParams.get('category') || 'Hamısı';
+    const archive = searchParams.get('archive');
     
     // Detect if we're on light mode page
     const isLightMode = location.pathname.includes('-light');
@@ -15,10 +16,10 @@ const CategoryWidget = () => {
         'Sosial Media': ['Sosial Media', 'Influencer', 'LinkedIn', 'Reels', 'Micro-Influencer'],
         'Reklam': ['Reklam', 'Facebook Ads'],
         'SEO & Analitika': ['SEO', 'Analitika', 'ROI', 'Voice Search', 'Zero-Click SEO'],
-        'Video & Məzmun': ['Video', 'Məzmun', 'Məzmun Planı', 'Interactive Content', 'UGC Strategy'],
+        'Video & Məzmun': ['Video', 'Məzmun', 'Məzmun Planı', 'Interactive Content', 'UGC Strategy', 'Vebsayt'],
         'YouTube': ['YouTube', 'AdSense', 'YouTube Gəlir'],
         'TikTok': ['TikTok', 'TikTok Gəlir'],
-        'Strategiya': ['Strategiya', 'Branding', 'Email Marketing', 'Community Growth'],
+        'Strategiya': ['Strategiya', 'Branding', 'Email Marketing', 'Community Growth', 'Email'],
         'Freelancing': ['Freelancing', 'LinkedIn Premium', 'Personal Branding', 'Affiliate Marketing', 'Podcast'],
         'AI Marketing Tools': ['AI Marketing', 'AI Design', 'AI Copywriting', 'AI SEO', 'AI Tools', 'AI CRM', 'AI Analytics', 'AI Social Media', 'AI Video', 'AI Automation'],
         '2026 Trendləri': ['Web3 Marketing', 'NFT Marketing', 'Privacy Marketing', 'Sustainability'],
@@ -30,6 +31,14 @@ const CategoryWidget = () => {
         if (category === 'Hamısı') return BlogData.length;
         const tags = categoryMap[category] || [];
         return BlogData.filter(blog => tags.includes(blog.tag)).length;
+    };
+
+    const categoryLink = (categoryName: string) => {
+        const p = new URLSearchParams();
+        if (categoryName !== 'Hamısı') p.set('category', categoryName);
+        if (archive) p.set('archive', archive);
+        const qs = p.toString();
+        return qs ? `${basePath}?${qs}` : basePath;
     };
 
     const categories = [
@@ -56,7 +65,7 @@ const CategoryWidget = () => {
                         {categories.map((category, index) => (
                             <li key={index}>
                                 <Link 
-                                    to={category.name === 'Hamısı' ? basePath : `${basePath}?category=${encodeURIComponent(category.name)}`}
+                                    to={categoryLink(category.name)}
                                     style={{
                                         fontWeight: currentCategory === category.name ? 'bold' : 'normal',
                                         color: currentCategory === category.name ? '#ff4a17' : 'inherit'

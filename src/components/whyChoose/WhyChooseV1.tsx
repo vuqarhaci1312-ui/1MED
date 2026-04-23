@@ -1,5 +1,6 @@
 import Animate from '../animation/Animate';
-import thumb3 from '/assets/img/thumb/3.jpg';
+
+const thumbNiyeBizz = '/assets/img/thumb/niyebizz.webp';
 
 interface DataType {
     sectionClass?: string
@@ -12,8 +13,8 @@ const WhyChooseV1 = ({ sectionClass }: DataType) => {
                 <div className="container">
                     <div className="row align-center">
                         <div className="col-lg-5">
-                            <div className="thumb-style-one">
-                                <img src={thumb3} alt="Şəkil Tapılmadı" />
+                            <div className="thumb-style-one why-choose-v1-thumb">
+                                <img src={thumbNiyeBizz} alt="Şəkil Tapılmadı" width={501} height={601} />
                             </div>
                         </div>
                         <div className="col-lg-7">

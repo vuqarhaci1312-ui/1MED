@@ -1,17 +1,26 @@
-import twitter from "/assets/img/icon/twitter.png"
-import { Link } from "react-router-dom";
+import {
+    SOCIAL_FACEBOOK_URL,
+    SOCIAL_INSTAGRAM_URL,
+    SOCIAL_LINKEDIN_URL,
+} from "../../constants/socialLinks";
 
 const FooterSocial = () => {
     return (
         <>
             <li>
-                <Link to="https://www.facebook.com/" target='_blank'><i className="fab fa-facebook-f" /></Link>
+                <a href={SOCIAL_FACEBOOK_URL} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                    <i className="fab fa-facebook-f" />
+                </a>
             </li>
             <li>
-                <Link to="https://www.linkedin.com/" target='_blank'><i className="fab fa-linkedin-in" /></Link>
+                <a href={SOCIAL_LINKEDIN_URL} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i className="fab fa-linkedin-in" />
+                </a>
             </li>
             <li>
-                <Link to="https://www.x.com/" target='_blank'><img src={twitter} alt="Image Not Found" /></Link>
+                <a href={SOCIAL_INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i className="fab fa-instagram" />
+                </a>
             </li>
         </>
     );

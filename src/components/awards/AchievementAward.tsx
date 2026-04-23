@@ -8,26 +8,24 @@ const AchievementAward = () => {
                     <div className="row align-center">
                         <div className="col-xl-5">
                             <div className="site-title">
-                                <h4 className="sub-title">Award & Achivement </h4>
-                                <h2 className="title">Awards & Recognitions</h2>
+                                <h4 className="sub-title">Mükafat və nailiyyətlər</h4>
+                                <h2 className="title">Tanınma və uğurlar</h2>
                             </div>
                             <p>
-                                Bndulgence diminution so discovered mr apartments. Are off under folly death wrote cause her way spite. Plan upon yet way get cold spot its week. Almost do am or limits hearts. Resolve parties but why she shewing. She sang know now premium service has achived.
+                                1MEDIA komandası illər boyu brendlərin rəqəmsal görünürlüyünü gücləndirməkdə platformalar üzrə tanınmış mükafatlara və müştəri məmnuniyyəti göstəricilərinə nail olub. Keyfiyyətli məzmun, dizayn və marketinq kampaniyaları ilə sektor üzrə etibar qazanmışıq.
                             </p>
                             <div className="achivement-fact">
                                 <div className="fun-fact">
                                     <div className="counter">
-                                        <div className="timer"><CountUp end={38} enableScrollSpy /></div>
-                                        <div className="operator">K</div>
+                                        <div className="timer"><CountUp end={25} enableScrollSpy /></div>
                                     </div>
-                                    <span className="medium">Completed Projects</span>
+                                    <span className="medium">Tamamlanmış layihələr</span>
                                 </div>
                                 <div className="fun-fact">
                                     <div className="counter">
-                                        <div className="timer"><CountUp end={4} enableScrollSpy /></div>
-                                        <div className="operator">M</div>
+                                        <div className="timer"><CountUp end={25} enableScrollSpy /></div>
                                     </div>
-                                    <span className="medium">Awesome Clients</span>
+                                    <span className="medium">Məmnun müştərilər</span>
                                 </div>
                             </div>
                         </div>
@@ -36,17 +34,17 @@ const AchievementAward = () => {
                                 <div className="award-grid">
                                     <div className="award-item">
                                         <i className="fab fa-behance" />
-                                        <h4>Behance Awards </h4>
+                                        <h4>Behance uğurları</h4>
                                     </div>
                                 </div>
                                 <div className="award-grid">
                                     <div className="award-item">
                                         <i className="fas fa-layer-group" />
-                                        <h4>Design Awards</h4>
+                                        <h4>Dizayn mükafatları</h4>
                                     </div>
                                     <div className="award-item">
                                         <i className="fab fa-laravel" />
-                                        <h4>Coding Awards</h4>
+                                        <h4>Texniki həllər</h4>
                                     </div>
                                 </div>
                             </div>

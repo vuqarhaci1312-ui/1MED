@@ -1,10 +1,13 @@
-import BlogV2Data from '../../../src/assets/jsonData/blog/BlogV2Data.json';
+import BlogV3Data from '../../../src/assets/jsonData/blog/BlogV3Data.json';
 import SingleBlogV2 from './SingleBlogV2';
 import SplitText from "../animation/SplitText.jsx"
+import { sortBlogsNewestFirst, splitBlogDateForHomeCard } from '../../utils/blogChronology';
 
 interface DataType {
     sectionClass?: string
 }
+
+const latestTwoBlogsForHome = sortBlogsNewestFirst(BlogV3Data).slice(0, 2);
 
 const BlogV2 = ({ sectionClass }: DataType) => {
     return (
@@ -33,11 +36,26 @@ const BlogV2 = ({ sectionClass }: DataType) => {
                 </div>
                 <div className="container">
                     <div className="row">
-                        {BlogV2Data.map(blog =>
-                            <div className="col-lg-6 col-md-6 mb-30" key={blog.id}>
-                                <SingleBlogV2 blog={blog} />
-                            </div>
-                        )}
+                        {latestTwoBlogsForHome.map((blog) => {
+                            const { day, monthShort } = splitBlogDateForHomeCard(blog.date);
+                            const thumb = (blog.thumb || blog.thumbFull || "").trim();
+                            return (
+                                <div className="col-lg-6 col-md-6 mb-30" key={blog.id}>
+                                    <SingleBlogV2
+                                        blog={{
+                                            id: blog.id,
+                                            thumb: thumb || undefined,
+                                            tag: blog.tag,
+                                            author: blog.author,
+                                            comment: 0,
+                                            date: day,
+                                            month: monthShort,
+                                            title: blog.title,
+                                        }}
+                                    />
+                                </div>
+                            );
+                        })}
                     </div>
                 </div>
             </div>

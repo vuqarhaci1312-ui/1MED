@@ -1,7 +1,7 @@
 const ProjectIdeaV1 = () => {
     return (
         <>
-            <div className="contact-panel-bg" style={{ backgroundImage: 'url(/assets/img/about/3.jpg)' }} />
+            <div className="contact-panel-bg" style={{ backgroundImage: 'url(/assets/img/thumb/elaqesaxla.webp)' }} />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-7">
@@ -14,7 +14,7 @@ const ProjectIdeaV1 = () => {
                                 </div>
                                 <div className="info">
                                     <h4>Telefon</h4>
-                                    <a className="phone-link" href="tel:+994501234567">+994 50 123 45 67</a> <br />
+                                    <a className="phone-link" href="tel:+994104277753">+994 10 427 77 53</a> <br />
                                 </div>
                             </li>
                             <li>

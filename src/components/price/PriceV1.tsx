@@ -44,18 +44,18 @@ const PriceV1 = ({ sectionClass }: DataType) => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="pricing-items">
-                        <div className="row">
-                            {PriceV1Data.map(plan =>
+                    <div className="pricing-items pricing-items--four-cols">
+                        <div className="pricing-four-row">
+                            {PriceV1Data.map((plan) => (
                                 <div
-                                    className="col-xl-6"
+                                    className="pricing-four-row__item"
                                     key={plan.id}
                                     onMouseEnter={() => handleMouseEnter(plan.id)}
                                     onMouseLeave={handleMouseLeave}
                                 >
                                     <SinglePriceV1 plan={plan} activeServiceId={activeServiceId} />
                                 </div>
-                            )}
+                            ))}
                         </div>
                     </div>
                 </div>
